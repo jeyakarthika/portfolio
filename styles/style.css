@@ -60,6 +60,25 @@ table {
 }
 
 /*---------------------------------------------------------------------------------
+   One Page Mania - Ribbon Styling
+---------------------------------------------------------------------------------*/
+
+.opm-ribbon { 
+position:relative; 
+top:60px; 
+left:0px; 
+z-index:99999; 
+} 
+
+.opm-ribbon a { 
+width:65px; 
+height:85px; 
+text-indent:-9999px; 
+display:block; 
+background:url('https://s3.amazonaws.com/onepagemania/opm-badge.png') no-repeat; 
+}
+
+/*---------------------------------------------------------------------------------
    Mobile-First Styles
 ---------------------------------------------------------------------------------*/
 @media only screen and (min-width : 300px) {
