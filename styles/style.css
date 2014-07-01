@@ -59,29 +59,31 @@ table {
   border-spacing: 0;
 }
 
-/*---------------------------------------------------------------------------------
-   One Page Mania - Ribbon Styling
----------------------------------------------------------------------------------*/
-
-.opm-ribbon { 
-position:relative; 
-top:60px; 
-left:0px; 
-z-index:99999; 
-} 
-
-a.opm-ribbon { 
-width:65px; 
-height:85px; 
-text-indent:-9999px; 
-display:block; 
-background:url('https://s3.amazonaws.com/onepagemania/opm-badge.png') no-repeat; 
-}
 
 /*---------------------------------------------------------------------------------
    Mobile-First Styles
 ---------------------------------------------------------------------------------*/
 @media only screen and (min-width : 300px) {
+
+
+    /*---------------------------------------------------------------------------------
+       One Page Mania - Ribbon Styling
+    ---------------------------------------------------------------------------------*/
+
+    .opm-ribbon { 
+    position:fixed; 
+    top:60px; 
+    left:0px;
+    z-index: 999999;
+    width:45px; 
+    height:85px; 
+    } 
+
+    .opm-ribbon img{ 
+    width: 100%;
+    text-indent:-9999px; 
+    display:block; 
+    }
 
     /*---------------------------------------------------------------------------------
        Common Styles
@@ -428,6 +430,12 @@ background:url('https://s3.amazonaws.com/onepagemania/opm-badge.png') no-repeat;
 
 @media only screen and (min-width : 768px) {
 
+    /* OPM Ribbon */
+    .opm-ribbon { 
+      top:100px;
+      width:65px;
+    }
+
     /* Common styles */
     h1 {
       font-size: 500%;
@@ -537,6 +545,12 @@ background:url('https://s3.amazonaws.com/onepagemania/opm-badge.png') no-repeat;
       max-width: 300px;
     }
 
+    /* OPM Ribbon */
+    .opm-ribbon { 
+      top: 65px;
+      width: 50px; 
+    }
+
 }
 
 @media only screen and (min-width : 500px) {
@@ -545,12 +559,26 @@ background:url('https://s3.amazonaws.com/onepagemania/opm-badge.png') no-repeat;
       max-width: 400px;
     }
 
+
+    /* OPM Ribbon */
+    .opm-ribbon { 
+      top: 80px;
+      width: 60px; 
+    }
+
 }
 
 @media only screen and (min-width : 600px) {
 
     img {
       max-width: 500px;
+    }
+
+
+    /* OPM Ribbon */
+    .opm-ribbon { 
+      top: 100px;
+      width: 65px; 
     }
 
 }
@@ -584,6 +612,12 @@ background:url('https://s3.amazonaws.com/onepagemania/opm-badge.png') no-repeat;
 ---------------------------------------------------------------------------------*/
 
 @media only screen and (min-width : 1140px) {
+
+    /* OPM Ribbon */
+    .opm-ribbon { 
+      top: 160px;
+      width: 65px; 
+    }
     
     /* About styles */
     .about-text {
