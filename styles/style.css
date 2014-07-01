@@ -70,7 +70,7 @@ left:0px;
 z-index:99999; 
 } 
 
-.opm-ribbon a { 
+a.opm-ribbon { 
 width:65px; 
 height:85px; 
 text-indent:-9999px; 
