@@ -1,0 +1,659 @@
+/*---------------------------------------------------------------------------------
+
+	Project Name: Portfolio
+	Project Description: A ThinkFul Portfolio Site
+	File Name: style.css
+	Author: Jeya Karthika
+	Author URI: http://www.freshsqueaks.com
+	Version: 0.1
+	
+----------------------------------------------------------------------------------*/
+
+/*---------------------------------------------------------------------------------
+   http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+---------------------------------------------------------------------------------*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+
+/*---------------------------------------------------------------------------------
+   Mobile-First Styles
+---------------------------------------------------------------------------------*/
+@media only screen and (min-width : 300px) {
+
+
+    /*---------------------------------------------------------------------------------
+       One Page Mania - Ribbon Styling
+    ---------------------------------------------------------------------------------*/
+
+    .opm-ribbon { 
+    position:fixed; 
+    top:60px; 
+    left:0px;
+    z-index: 999999;
+    width:45px; 
+    height:85px; 
+    } 
+
+    .opm-ribbon img{ 
+    width: 100%;
+    text-indent:-9999px; 
+    display:block; 
+    }
+
+    /*---------------------------------------------------------------------------------
+       Common Styles
+    ---------------------------------------------------------------------------------*/
+    /*float styles*/
+    .clearfix:before,
+    .clearfix:after {
+        content: " "; /* 1 */
+        display: table; /* 2 */
+    }
+
+    .clearfix:after {
+        clear: both;
+    }
+
+    * {
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+    }
+
+    html {
+      width: 100%;
+      height: 100%;
+      background-color: #f2f2f2;
+      overflow: hidden;
+    }
+
+    body {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      margin: 0 auto;
+      font-family: 'Open Sans', sans-serif;
+      font-size: 100%;
+      text-align: center;
+    }
+
+    a {
+      text-decoration: none;
+      color: #000;
+    }
+
+    h1 {
+      font-family: 'Grand Hotel', cursive;
+      font-style: normal;
+      font-size: 300%;
+    }
+
+    .ampersand {
+      font-family: 'Alice', 'Grand Hotel', 'Open Sans', sans-serif;
+    }
+
+    /* Hide Text - for image replacement */
+    .hide-text {
+      text-indent: -9999px;
+      overflow: hidden;
+    }
+
+    .dots {
+      font-family: 'Grand Hotel', cursive;
+      font-style: normal;
+      font-size: 300%;
+      text-align: center;
+      display: block;
+      margin: -0.8em 0 -0.5em;
+    }
+
+    .icon {
+      display: inline-block;
+      width: 30px;
+      height: 30px;
+    }
+    /*---------------------------------------------------------------------------------
+       Header Styles
+    ---------------------------------------------------------------------------------*/
+
+    /* fixed header */
+    .fixed-header {
+      position: fixed;
+      display: block;
+      top: 0;
+      width: 100%;
+      height: 11%;
+      margin: 0 auto;
+      text-align: center;
+      z-index: 10;
+    }
+
+    header a {
+      position: relative;
+      top: 0.5em;
+      padding: 0.5em;
+    }
+
+    header a:nth-child(1) {
+      right: 0.5em;
+      float: right;
+    }
+
+    header a:nth-child(3) {
+      right: 0.5em;
+      float: right;
+    }
+
+    header a:nth-child(2) {
+      top: 0;
+      padding: 0.3em 0.5em;
+      float: left;
+      font-family: 'Grand Hotel', cursive;
+      font-style: normal;
+      font-size: 200%;
+    }
+
+    /* Menu */
+    .icon-menu {
+      top: 0.5em;
+      left: 0.5em;
+      background: url('../images/icons/glyphicons_158_show_lines.png') no-repeat 0 3px;
+      display: inline-block;
+      width: 30px;
+      height: 30px;
+    }
+
+
+    /* Hire me */
+    .hire-text {
+      right: 0.5em;
+      background: url('../images/icons/glyphicons_421_send.png') no-repeat;
+      display: inline-block;
+      width: 30px;
+      height: 30px;
+    }
+
+    /*---------------------------------------------------------------------------------
+       Navigation Styles
+    ---------------------------------------------------------------------------------*/
+    nav {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      margin: auto;
+    }
+    nav a {
+      display: block;
+      width: 100%;
+      height: 20%;
+      border-bottom: #272822 solid 1px;
+      padding: 1.98em;
+    }
+
+    nav a span {
+      font-weight: 200;
+      font-size: 200%;
+      color: #FFF
+    }
+
+    nav a:hover {
+      background-color: #272822;
+      font-style: italic;
+    }
+
+    /*---------------------------------------------------------------------------------
+       Home Section Styles
+    ---------------------------------------------------------------------------------*/
+    .home-text {
+      position: relative;
+      width: 85%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .super-text {
+      padding: 0.5em;
+    }
+
+    hr {
+      height:1px; 
+      border:none; 
+      color:#000; 
+      background-color:#000;
+      width:20%; 
+      text-align:center; 
+      margin: 0 auto;
+    }
+
+    .home-text p {
+      font-weight: 200;
+    }
+
+    .home-text h2 {
+      font-weight: 200;
+      font-size: 90%;
+      padding: 1em;
+      line-height: 1.4em;
+    }
+
+    .home-text h2 span {
+      font-weight: 400;
+      font-style: italic;
+    }
+
+    /*---------------------------------------------------------------------------------
+       Portfolio work Section Styles
+    ---------------------------------------------------------------------------------*/
+    .project-container {
+      position: relative;
+      width: 90%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .project-container p {
+      padding-top: 0.5em;
+      font-weight: 200;
+      font-size: 80%;
+      line-height: 1.7em;
+      text-align: center;
+    }
+
+    img {
+      max-width: 300px;
+    }
+
+    .code {
+      background: url('../images/icons/glyphicons_118_embed_close.png') no-repeat;
+      margin-right: 1em;
+    }    
+
+    .link {
+      background: url('../images/icons/glyphicons_050_link.png') no-repeat;
+    }
+
+
+    /*---------------------------------------------------------------------------------
+       About Section Styles
+    ---------------------------------------------------------------------------------*/
+    
+    .about-text {
+      position: relative;
+      width: 85%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .about-text h1 {
+      padding-top: 0.5em;
+    }
+
+    .about-text p {
+      font-weight: 200;
+      font-size: 80%;
+      line-height: 1.7em;
+    }
+
+    .highlight {
+      font-weight: 400;
+      font-style: italic;
+    }
+
+    /*---------------------------------------------------------------------------------
+       Contact Section Styles
+    ---------------------------------------------------------------------------------*/
+    .contact-text { 
+      position: relative;
+      width: 90%;
+      margin-left: auto;
+      margin-right: auto;
+      font-weight: 200;
+      font-size: 100%;
+    }
+
+    .contact-text p {
+      line-height: 1.7em;
+      font-size: 80%;
+    }
+
+    .icon-container {
+      position: relative;
+      margin: 1em 0;
+      display: block;
+    }
+
+    /* Social Media Icons */
+
+
+    .twitter {
+      background: url('../images/icons/social/glyphicons_social_31_twitter.png') no-repeat;
+    }
+
+    .facebook {
+      background: url('../images/icons/social/glyphicons_social_30_facebook.png') no-repeat;
+    }
+
+    .linkedin {
+      background: url('../images/icons/social/glyphicons_social_17_linked_in.png') no-repeat;
+    }
+
+    .google-plus {
+      background: url('../images/icons/social/glyphicons_social_02_google_plus.png') no-repeat;
+    }
+
+    .pinterest {
+      background: url('../images/icons/social/glyphicons_social_00_pinterest.png') no-repeat;
+    }
+
+    .instagram {
+      background: url('../images/icons/social/glyphicons_social_32_instagram.png') no-repeat;
+    }
+
+    .flickr {
+      background: url('../images/icons/social/glyphicons_social_35_flickr.png') no-repeat;
+    }
+
+    .github {
+      background: url('../images/icons/social/glyphicons_social_21_github.png') no-repeat;
+    }
+
+    .skype {
+      background: url('../images/icons/social/glyphicons_social_38_skype.png') no-repeat;
+    }
+
+
+    /* footer */
+    p.footer {
+      bottom: 0;
+      margin: 0.5em auto;
+      padding: 0.5em 0;
+    }
+
+    p.footer span {
+      color: #e64c65;
+    }
+
+    p.footer a {
+      font-weight: 400;
+    }
+
+}
+
+/*---------------------------------------------------------------------------------
+       Tablet Styles
+---------------------------------------------------------------------------------*/
+
+@media only screen and (min-width : 768px) {
+
+    /* OPM Ribbon */
+    .opm-ribbon { 
+      top:100px;
+      width:65px;
+    }
+
+    /* Common styles */
+    h1 {
+      font-size: 500%;
+    }
+
+    .dots {
+      font-size: 500%;
+    }
+
+
+    /* Navigation Styles */
+    nav a {
+      padding: 3.5em;
+    }
+
+
+    /* Header styles */
+    header a {
+      top: 1em;
+      padding: 1em;
+    }
+
+    header a:nth-child(1) {
+      right: 1em;
+    }
+
+    header a:nth-child(3) {
+      right: 1em;
+    }
+
+    header a:nth-child(2) {
+      padding: 0.5em 1em;
+      font-size: 250%;
+    }
+
+    /* Home styles */
+    .home-text p {
+      font-weight: 200;
+      font-size: 220%;
+    }
+
+    .home-text h2 {
+      font-size: 150%;
+    }
+
+    /* Portfolio styles */
+    .project-container {
+      width: 80%;
+    }
+
+    .project-container p {
+      padding-top: 1em;
+      text-align: center;
+      font-size: 110%;
+    }
+
+    .code {
+      margin-right: 2em;
+    }
+
+    /* About styles */
+
+    .about-text p {
+      padding-top: 1em;
+      font-size: 130%;
+    }
+
+    /* Contact Styles */
+    .contact-text { 
+      width: 85%;
+    }
+
+    .contact-text p {
+      padding-top: 1em;
+      font-size: 130%;
+    }
+
+    .icon-container {
+      margin: 2em 0;
+    }
+
+    /* footer */
+    p.footer {
+      margin: 0;
+      padding: 1em 0 0;
+      font-size: 100%;
+    }
+
+
+}
+
+/*---------------------------------------------------------------------------------
+       img Styles to resolve the cross-browser positioning issues.
+---------------------------------------------------------------------------------*/
+
+@media only screen and (min-width : 300px) {
+
+    img {
+      max-width: 200px;
+    }
+
+}
+
+@media only screen and (min-width : 400px) {
+
+    img {
+      max-width: 300px;
+    }
+
+    /* OPM Ribbon */
+    .opm-ribbon { 
+      top: 65px;
+      width: 50px; 
+    }
+
+}
+
+@media only screen and (min-width : 500px) {
+
+    img {
+      max-width: 400px;
+    }
+
+
+    /* OPM Ribbon */
+    .opm-ribbon { 
+      top: 80px;
+      width: 60px; 
+    }
+
+}
+
+@media only screen and (min-width : 600px) {
+
+    img {
+      max-width: 500px;
+    }
+
+
+    /* OPM Ribbon */
+    .opm-ribbon { 
+      top: 100px;
+      width: 65px; 
+    }
+
+}
+
+@media only screen and (min-width : 700px) {
+
+    img {
+      max-width: 600px;
+    }
+
+}
+
+@media only screen and (min-width : 800px) {
+
+    img {
+      max-width: 700px;
+    }
+
+}
+
+@media only screen and (min-width : 900px) {
+
+    img {
+      max-width: 800px;
+    }
+
+}
+
+/*---------------------------------------------------------------------------------
+       Desktop Styles
+---------------------------------------------------------------------------------*/
+
+@media only screen and (min-width : 1140px) {
+
+    /* OPM Ribbon */
+    .opm-ribbon { 
+      top: 160px;
+      width: 65px; 
+    }
+    
+    /* About styles */
+    .about-text {
+      width: 65%;
+    }
+
+    /* Portfolio styles */
+    .project-container h1 {
+      padding-top: 1em;
+    }
+
+    img {
+      max-width: 1024px;
+    }
+
+    .code {
+      margin-right: 3em;
+    }
+
+    /* Contact Styles */
+    .contact-text { 
+      width: 55%;
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
