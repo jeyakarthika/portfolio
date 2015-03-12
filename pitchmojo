@@ -69,31 +69,23 @@
     </header>
     <section class="work">
       <div>
-        <h2>Selected Works</h2>
-        <p>I’m Jeya Karthika, a UX designer based in Brisbane, <span>crafting delightful visual experiences for mobile/web</span> that empower and engage users. You can find some of my work <a href="#">below</a>.</p>
-      </div>
-      <div>
         <div>
-          <h4>Android Application</h4>
+          <p>Pitch Perfection on the go</p>
           <h3>PitchMojo</h3>
-          <p>Mobile app experience design that enables entrepreneurs to transform ideas to pitch on the go.</p>
-          <a href="#">View Case Study</a>
+          <h4>Android Application</h4>
         </div>
       </div>
       <div>
         <div>
-          <h4>E-Commerce Shop</h4>
-          <h3>Sutra</h3>
-          <p>E-Commerce Online Shopping experience and Branding for a T-Shirt shop.<p>
-          <a href="#">View Case Study</a>
+          <p>PitchMojo is an android app for enabling entrepreneurs to create, edit and share their pitch.</p>
         </div>
-      </div>
-      <div>
         <div>
-          <h4>SaaS Startup</h4>
-          <h3>Jott.ly</h3>
-          <p>Cohesive Branding and product landing page designed to encourage users to signup.</p>
-          <a href="#">View Case Study</a>
+          <h5>Project Overview</h5>
+          <p>Anyone who has ever had an idea knows how important it is to have a pitch that will impress and interest. Currently, there is no structured way to tailor your pitch as you get inspirations to make it better. The goal of PitchMojo is to provide entrepreneurs a neat way to perfect their pitches on the go.</p>
+        </div>
+        <div>
+          <h5>My Role</h5>
+          <p>I worked with the founder Madhan and the app developer Hassan to design the user experience and interface for the app. I was also responsible for the branding and visual design of the app icon and the product landing page.</p>
         </div>
       </div>
     </section>
