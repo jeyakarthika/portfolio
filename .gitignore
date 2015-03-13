@@ -1,0 +1,3 @@
+#to remove sass cache
+style/pages/about/_about.scss
+style/.sass-cache
