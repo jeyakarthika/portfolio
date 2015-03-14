@@ -1,0 +1,24 @@
+h2 {
+  color: $section-header-color;
+  font-weight: 600;
+  font-size: 1.6em;
+}
+
+h3 {
+  font-weight: 700;
+}
+
+h4 {
+  font-weight: 100;
+}
+
+p {
+  font-family: $secondary-font-stack;
+  color: $body-text-color;
+  line-height: 1.8;
+}
+
+p > span {
+  @extend %highlight;
+  font-style: italic;
+}

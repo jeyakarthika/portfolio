@@ -1,0 +1,35 @@
+section, footer {
+  @extend %clearfix;
+  position: relative;
+  top: 6.5em;
+}
+.section-content, .work-content, .footer-content {
+  @extend %container;
+}
+
+.section-content {
+  text-align: left;
+}
+
+.work-content {
+  height: 20em;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+#work-pitchmojo, #work-sutra, #work-jottly {
+  width: 100%;
+  display: table;
+}
+
+#work-pitchmojo {
+  @include work-bg("../images/work-pitchmojo-bg.jpg");
+}
+
+#work-sutra {
+  @include work-bg("../images/work-sutra-bg.jpg");
+}
+
+#work-jottly {
+  @include work-bg("../images/work-jottly-bg.jpg");
+}

@@ -1,0 +1,39 @@
+header {
+  nav {
+    position: relative;
+    margin: 0 auto;
+    background: $background-color;
+    padding: 1em 0em;
+  }
+}
+
+
+.logo {
+  width: 100%;
+  display: block;
+  @extend %center-text;
+
+  img {
+    width: 4em;
+    vertical-align: middle;
+  }
+}
+
+ul.pure-menu-list.menu {
+  @extend %center-text;
+  display: block;
+  width: 100%;
+}
+
+.pure-menu-selected a.pure-menu-link.current-page {
+  @extend %highlight;
+  border-bottom: 0.2em solid $primary-highlight-color;
+}
+
+.pure-menu-link {
+  color: $nav-text-color;
+  font-size: 0.9em;
+  padding: 0;
+  padding-bottom: 0.2em;
+  margin: 1em 0.5em;
+}
