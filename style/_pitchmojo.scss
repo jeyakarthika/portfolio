@@ -72,14 +72,12 @@
 
   // Project info
   .overview {
-    height: 27em;
     background-color: #55C8CB;
-    display: block;
-
+    width: 100%;
     @extend %clearfix;
 
     .content {
-      display: table;
+      display: inline-table;
     }
 
     p {
@@ -94,15 +92,24 @@
       border-width: 0;
       border-top: 1px solid rgba(249,249,249,0.31);
     }
+
+    @media screen and (min-width: $medium-devices-up) {
+      .content {
+        width: 50%;
+      }
+
+      .project {
+        float: left;
+      }
+
+      .role {
+        float: right;
+      }
+
+
+    }
   }
 
-  .project {
-    float: left;
-  }
-
-  .role {
-    float: right;
-  }
 
   //intro
   .intro .content {
@@ -215,6 +222,9 @@
       @extend %p-centered;
       font-size: 1.1em;
       color: #4E4E4E;
+      a {
+        color: #000;
+      }
     }
   }
 

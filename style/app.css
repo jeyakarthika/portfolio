@@ -1585,11 +1585,10 @@ section, footer {
   font-size: 1.2em;
   color: #A5A5A5; }
 #pitchmojo .overview {
-  height: 27em;
   background-color: #55C8CB;
-  display: block; }
+  width: 100%; }
   #pitchmojo .overview .content {
-    display: table; }
+    display: inline-table; }
   #pitchmojo .overview p {
     font-size: 1.2em;
     color: #4E4E4E;
@@ -1599,10 +1598,13 @@ section, footer {
     width: 3em;
     border-width: 0;
     border-top: 1px solid rgba(249, 249, 249, 0.31); }
-#pitchmojo .project {
-  float: left; }
-#pitchmojo .role {
-  float: right; }
+  @media screen and (min-width: 48em) {
+    #pitchmojo .overview .content {
+      width: 50%; }
+    #pitchmojo .overview .project {
+      float: left; }
+    #pitchmojo .overview .role {
+      float: right; } }
 #pitchmojo .intro .content p:nth-child(2) {
   font-family: "proxima-nova", sans-serif;
   font-weight: 400;
@@ -1657,6 +1659,8 @@ section, footer {
   #pitchmojo .view-sutra p, #pitchmojo .view-jottly p {
     font-size: 1.1em;
     color: #4E4E4E; }
+    #pitchmojo .view-sutra p a, #pitchmojo .view-jottly p a {
+      color: #000; }
 @media screen and (min-width: 35.5em) {
   #pitchmojo .view-jottly {
     float: left; } }
