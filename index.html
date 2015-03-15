@@ -33,9 +33,9 @@
     <meta property="og:site_name" content="Jeya Karthika" />
 
     <!-- Fonts -->
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
     <script src="//use.typekit.net/ljp5jff.js"></script>
     <script>try{Typekit.load();}catch(e){}</script>
-    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
     
     <!-- Stylesheet -->
     <link rel="stylesheet" href="style/app.css" />
@@ -55,37 +55,37 @@
 
   </head>
   <body>
-    <!-- Logo and top nav - reused in all pages -->
-    <header>
 
-      <div class="logo-container">
-        <h1>Jeya Karthika</h1>
-      </div>
+    <!--[if lt IE 7]>
+        <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+    <![endif]-->
 
-      <nav>
-        <ul>
-          <li>Work</li>
-          <li>Thoughts</li>
-          <li>About</li>
-          <li>Contact</li>
+    <!-- Logo and top nav - reused in all pages  -->
+    <header class="pure-g">
+      <nav class="pure-menu pure-menu-horizontal">
+        <a class="logo pure-menu-heading" href="http://jeya.io"><img src="images/logo.png" alt="Jeya Karthika"></a>
+        <ul class="menu pure-menu-list">
+          <li class="pure-menu-item pure-menu-selected"><a href="#" class="current-page pure-menu-link">Work</a></li><!-- 
+           --><li class="pure-menu-item"><a href="#" class="pure-menu-link">Thoughts</a></li><!-- 
+           --><li class="pure-menu-item"><a href="#" class="pure-menu-link">About &amp; Contact</a></li>
         </ul>
       </nav>
-
     </header>
 
     <!-- Main Section of the page -->
-    <section class="work">
-
+    <section class="pure-g">
       <!-- Section Information -->
-      <div>
-        <h2>Selected Works</h2>
-        <p>I’m Jeya Karthika, a UX designer based in Brisbane, <span>crafting delightful visual experiences for mobile/web</span> that empower and engage users. You can find some of my work <a href="#">below</a>.</p>
+      <div class="pure-u-1">
+        <div class="section-content">
+          <h2>Selected Works</h2>
+          <p>I’m Jeya Karthika, a UX designer based in Brisbane, <span>crafting delightful visual experiences for mobile/web</span> that empower and engage users. You can find some of my work <a href="#">below</a>.</p>
+        </div>
       </div>
 
       <!-- Portfolio Case Study Panels -->
       <!-- PitchMojo Case Study -->
-      <div>
-        <div>
+      <div id="work-pitchmojo" class="pure-u-1">
+        <div class="work-content">
           <h4>Android Application</h4>
           <h3>PitchMojo</h3>
           <p>Mobile app experience design that enables entrepreneurs to transform ideas to pitch on the go.</p>
@@ -94,18 +94,18 @@
       </div>
 
       <!-- Sutra Case Study -->
-      <div>
-        <div>
+      <div id="work-sutra" class="pure-u-1">
+        <div class="work-content">
           <h4>E-Commerce Shop</h4>
           <h3>Sutra</h3>
-          <p>E-Commerce Online Shopping experience and Branding for a T-Shirt shop.<p>
+          <p>E-Commerce Online Shopping experience and Branding for a T-Shirt shop.</p>
           <a href="#">View Case Study</a>
         </div>
       </div>
 
       <!-- Jottly Case Study -->
-      <div>
-        <div>
+      <div id="work-jottly" class="pure-u-1">
+        <div class="work-content">
           <h4>SaaS Startup</h4>
           <h3>Jott.ly</h3>
           <p>Cohesive Branding and product landing page designed to encourage users to signup.</p>
@@ -116,60 +116,59 @@
     </section>
 
     <!-- Footer - reused in all pages -->
-    <footer>
+    <footer class="pure-g">
+      <!-- <div class="pure-u-1 footer-content"> -->
 
-      <!-- call to Action -->
-      <div>
-        <p>Let's <a href="#">talk</a>.</p>
-        <p>About user experience, your ideas or new opportunities</p>
-      </div>
-
-      <!-- Social Media Icons -->
-      <div>
-        <div>
-          <a href="#"><span class="fa"></span></a>
+        <!-- call to Action -->
+        <div class="pure-u-1 footer-content call-to-action">
+          <p>Let's <a href="#">talk</a>.</p>
+          <p>About user experience, your ideas or new opportunities</p>
         </div>
 
-        <div>
-          <a href="#"><span class="fa"></span></a>
+        <!-- Social Media Icons -->
+        <div class="pure-u-1 footer-content social-media-icons">
+          <div class="icon">
+            <a href="#"><span class="fa fa-twitter"></span></a>
+          </div>
+
+          <div class="icon">
+            <a href="#"><span class="fa fa-instagram"></span></a>
+          </div>
+
+          <div class="icon">
+            <a href="#"><span class="fa fa-linkedin"></span></a>
+          </div>
+
+          <div class="icon">
+            <a href="#"><span class="fa fa-dribbble"></span></a>
+          </div>
+
+          <div class="icon">
+            <a href="#"><span class="fa fa-behance"></span></a>
+          </div>
+
+          <div class="icon">
+            <a href="#"><span class="fa fa-envelope"></span></a>
+          </div>
         </div>
 
-        <div>
-          <a href="#"><span class="fa"></span></a>
+        <!-- Footer nav and coyright -->
+        <div class="pure-u-1 footer-content bottom-nav">
+          <nav class="pure-menu pure-menu-horizontal">
+            <ul class="menu pure-menu-list">
+              <li class="pure-menu-item pure-menu-selected"><a href="#" class="current-page pure-menu-link">Work</a></li><!-- 
+               --><li class="pure-menu-item"><a href="#" class="pure-menu-link">Thoughts</a></li><!-- 
+               --><li class="pure-menu-item"><a href="#" class="pure-menu-link">About &amp; Contact</a></li>
+            </ul>
+            <a class="logo pure-menu-heading" href="http://jeya.io"><img src="images/logo.png" alt="Jeya Karthika"></a>
+          </nav>
+          <div class="copyright">
+            <p>Crafted with <span class="fa fa-heart"></span> by <a href="#">jeya</a>.</p>
+            <p>Copyright &copy; 2015 Jeya. All Rights Reserved.</p>
+          </div>
         </div>
-
-        <div>
-          <a href="#"><span class="fa"></span></a>
-        </div>
-
-        <div>
-          <a href="#"><span class="fa"></span></a>
-        </div>
-
-        <div>
-          <a href="#"><span class="fa"></span></a>
-        </div>
-      </div>
-
-      <!-- Footer nav and coyright -->
-      <div>
-        <nav>
-          <ul>
-            <li>Work</li>
-            <li>Thoughts</li>
-            <li>About</li>
-            <li>Contact</li>
-          </ul>
-        </nav>
-        <div class="logo-container">
-          <h1>Jeya Karthika</h1>
-        </div>
-        <div>
-          <p>Crafted with love by <a href="#">jeya</a>.</p>
-          <p>Copyright &copy; 2015 Jeya. All Rights Reserved.</p>
-        </div>
-      </div>
-
+        
+      <!-- </div> -->
     </footer>
 
   </body>
