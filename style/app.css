@@ -1503,20 +1503,20 @@ section, footer {
 
 .social-media-icons {
   background-color: #171617; }
-  .social-media-icons .icon {
+  .social-media-icons div.icon {
     display: inline-block; }
-    .social-media-icons .icon a {
+    .social-media-icons div.icon a {
       color: #333;
       padding: 0.4em; }
-      .social-media-icons .icon a span {
+      .social-media-icons div.icon a span {
         font-size: 1.6em; }
         @media screen and (min-width: 35.5em) {
-          .social-media-icons .icon a span {
+          .social-media-icons div.icon a span {
             font-size: 2em; } }
       @media screen and (min-width: 35.5em) {
-        .social-media-icons .icon a {
+        .social-media-icons div.icon a {
           padding: 1em; } }
-      .social-media-icons .icon a:hover {
+      .social-media-icons div.icon a:hover {
         color: #de6162; }
 
 .bottom-nav {
