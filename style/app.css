@@ -1504,7 +1504,7 @@ section, footer {
 .social-media-icons {
   background-color: #171617; }
   .social-media-icons .icon {
-    display: inline-flex; }
+    display: inline-block; }
     .social-media-icons .icon a {
       color: #333;
       padding: 0.4em; }
