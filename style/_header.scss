@@ -36,4 +36,9 @@ ul.pure-menu-list.menu {
   padding: 0;
   padding-bottom: 0.2em;
   margin: 1em 0.5em;
+  &:hover {
+    background: none;
+    @extend %highlight;
+    border-bottom: 0.2em solid $primary-highlight-color;
+  }
 }

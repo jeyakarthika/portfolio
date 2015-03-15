@@ -389,6 +389,12 @@ th {
   height: auto;
   display: block; }
 
+/* ==========================================================================
+   My Extras
+   ========================================================================== */
+h2, h3, h4, h5, h6, p {
+  margin: 0; }
+
 /*!
 Pure v0.6.0
 Copyright 2014 Yahoo! Inc. All rights reserved.
@@ -1279,7 +1285,7 @@ https://github.com/yahoo/pure/blob/master/LICENSE.md
 .pure-menu-selected .pure-menu-link:visited {
   color: #000; }
 
-section:after, footer:after {
+section:after, footer:after, #work-pitchmojo:after, #work-sutra:after, #work-jottly:after {
   content: "";
   display: table;
   clear: both; }
@@ -1288,7 +1294,7 @@ a {
   text-decoration: none;
   color: #707070; }
 
-p > span, .pure-menu-selected a.pure-menu-link.current-page {
+p > span, .pure-menu-selected a.pure-menu-link.current-page, .pure-menu-link:hover {
   color: #de6162; }
 
 .logo, ul.pure-menu-list.menu, footer {
@@ -1312,18 +1318,21 @@ html, body {
 h2 {
   color: #c9c9c9;
   font-weight: 600;
-  font-size: 1.6em; }
+  font-size: 2em; }
 
 h3 {
+  font-size: 2.3em;
   font-weight: 700; }
 
 h4 {
+  font-size: 0.9em;
   font-weight: 100; }
 
 p {
   font-family: "minion-pro", serif;
+  font-size: 1.1em;
   color: #707070;
-  line-height: 1.8; }
+  line-height: 1.5; }
 
 p > span {
   font-style: italic; }
@@ -1354,18 +1363,44 @@ ul.pure-menu-list.menu {
   padding: 0;
   padding-bottom: 0.2em;
   margin: 1em 0.5em; }
+  .pure-menu-link:hover {
+    background: none;
+    border-bottom: 0.2em solid #de6162; }
 
 section, footer {
-  position: relative;
-  top: 6.5em; }
+  position: relative; }
 
 .section-content {
   text-align: left; }
+  .section-content p {
+    line-height: 1.6;
+    padding-top: 0.8em; }
 
 .work-content {
   height: 20em;
   display: table-cell;
   vertical-align: middle; }
+  .work-content h3, .work-content h4, .work-content p, .work-content a {
+    color: #f9f9f9; }
+  .work-content h4 {
+    padding: 0; }
+  .work-content h3 {
+    padding: 0.3em 0 0.5em;
+    text-shadow: 0px 2px 4px #171617; }
+  .work-content p {
+    padding: 1em 0 0.8em;
+    width: 15em;
+    margin: 0 auto; }
+  .work-content a {
+    margin: 0.5em 0;
+    display: inline-flex;
+    font-size: 0.8em;
+    border: 2px solid #f9f9f9;
+    border-radius: 4px;
+    padding: 0.8em 1em; }
+    .work-content a:hover, .work-content a:active {
+      background-color: #f9f9f9;
+      color: #4e4e4e; }
 
 #work-pitchmojo, #work-sutra, #work-jottly {
   width: 100%;
@@ -1376,15 +1411,80 @@ section, footer {
   background-repeat: no-repeat;
   background-position: top center;
   background-size: cover; }
+  #work-pitchmojo h3 {
+    color: #ED2030; }
 
 #work-sutra {
   background: url("../images/work-sutra-bg.jpg");
   background-repeat: no-repeat;
   background-position: top center;
   background-size: cover; }
+  #work-sutra h3, #work-sutra h4, #work-sutra p, #work-sutra a {
+    color: black; }
+  #work-sutra h3 {
+    color: #F9F9F9;
+    text-shadow: 0px 2px 5px rgba(23, 22, 23, 0.19); }
+  #work-sutra a {
+    margin: 0.5em 0;
+    display: inline-flex;
+    font-size: 0.8em;
+    border: 2px solid black;
+    border-radius: 4px;
+    padding: 0.8em 1em; }
+    #work-sutra a:hover, #work-sutra a:active {
+      background-color: black;
+      color: #f9f9f9; }
 
 #work-jottly {
   background: url("../images/work-jottly-bg.jpg");
   background-repeat: no-repeat;
   background-position: top center;
   background-size: cover; }
+  #work-jottly h3 {
+    color: #2F2F2D;
+    text-shadow: 0px 2px 4px rgba(23, 22, 23, 0.19); }
+
+.call-to-action p {
+  font-family: "proxima-nova", sans-serif;
+  line-height: 1.8; }
+  .call-to-action p:nth-child(1) {
+    font-weight: 300;
+    font-size: 1.5em; }
+  .call-to-action p:nth-child(2) {
+    font-weight: 100;
+    font-size: 1em; }
+  .call-to-action p a {
+    color: #de6162;
+    border-bottom: 1px solid #de6162; }
+
+.social-media-icons {
+  background-color: #171617; }
+  .social-media-icons .icon {
+    display: inline-flex; }
+    .social-media-icons .icon a {
+      color: #333;
+      font-size: 2em;
+      padding: 0.3em 0.8em; }
+      .social-media-icons .icon a:hover {
+        color: #de6162; }
+
+.bottom-nav {
+  background-color: #000; }
+  .bottom-nav .pure-menu-link {
+    color: #f9f9f9; }
+  .bottom-nav .copyright p {
+    color: #303030;
+    font-family: "proxima-nova", sans-serif;
+    font-weight: 100; }
+    .bottom-nav .copyright p:nth-child(1), .bottom-nav .copyright p a {
+      padding-top: 1em;
+      font-size: 0.9em; }
+      .bottom-nav .copyright p:nth-child(1) span.fa, .bottom-nav .copyright p a span.fa {
+        color: #FF0000;
+        padding: 0.5em; }
+    .bottom-nav .copyright p:nth-child(2) {
+      font-size: 0.8em; }
+    .bottom-nav .copyright p a {
+      color: #303030; }
+    .bottom-nav .copyright p:hover a {
+      color: #de6162; }
