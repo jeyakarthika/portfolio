@@ -1399,7 +1399,7 @@ section, footer {
         font-size: 1.3em; } }
 
 .work-content {
-  height: 20em;
+  height: 23em;
   display: table-cell;
   vertical-align: middle; }
   .work-content h3, .work-content h4, .work-content p, .work-content a {
@@ -1410,7 +1410,7 @@ section, footer {
     padding: 0.3em 0 0.5em;
     text-shadow: 0px 2px 4px #171617; }
   .work-content p {
-    padding: 1em 0 0.8em;
+    padding: 1em 0 1em;
     width: 15em;
     margin: 0 auto; }
   .work-content a {
@@ -1502,7 +1502,7 @@ section, footer {
   .bottom-nav .pure-menu-link {
     color: #f9f9f9; }
   .bottom-nav .copyright p {
-    color: #303030;
+    color: #404040;
     font-family: "proxima-nova", sans-serif;
     font-weight: 100; }
     .bottom-nav .copyright p:nth-child(1), .bottom-nav .copyright p a {
@@ -1514,6 +1514,6 @@ section, footer {
     .bottom-nav .copyright p:nth-child(2) {
       font-size: 0.8em; }
     .bottom-nav .copyright p a {
-      color: #303030; }
+      color: #404040; }
     .bottom-nav .copyright p:hover a {
       color: #de6162; }
