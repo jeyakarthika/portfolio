@@ -1,0 +1,237 @@
+#pitchmojo {
+
+  hr {
+    width: 3em;
+    margin-top: 3em;
+    margin-bottom: 3.5em;
+    border-width: 0;
+    border-top: 1px solid rgba(249,249,249,0.31);
+  }
+
+  .wrapper {
+    display: table;
+    @extend %clearfix;
+  }
+
+  .content {
+    display: table-cell;
+    vertical-align: middle;
+    @extend %container;
+    text-align: left;
+
+    p {
+      padding: 0.5em 0;
+      font-size: 1.1em;
+    }
+
+    // Section Icons
+    p.section-icon {
+      text-align: center;
+    }
+
+    .fa {
+      text-align: center;
+      color: #C7C9C9;
+      font-size: 2.5em;
+    }
+  }
+
+  .case-study-hero {
+    text-align: center;
+    height: 25em;
+    @include work-bg("../images/pitchmojo/casestudy-pitchmojo-hero.jpg");
+
+    p {
+      font-size: 2em;
+      color: $body-text-color-light;
+      text-shadow: 0px 2px 4px rgba(0,0,0,0.50);
+    }
+
+    h3 {
+      font-size: 2.5em;
+      color: #ED2030;
+      text-shadow: 0px 2px 4px #171617;
+      padding-bottom: 0.3em;
+    }
+
+    h4 {
+      color: #F9F9F9;
+    }
+
+  }
+
+  //Project one-liner
+  .project-description {
+    p {
+      font-family: $primary-font-stack;
+      font-weight: 300;
+      font-size: 1.2em;
+      color: #A5A5A5;
+    }
+  }
+
+  // Project info
+  .overview {
+    height: 27em;
+    background-color: #55C8CB;
+    display: block;
+
+    @extend %clearfix;
+
+    .content {
+      display: table;
+    }
+
+    p {
+      font-size: 1.2em;
+      color: #4E4E4E;
+      line-height: 29px;
+    }
+
+    hr {
+      margin: 1.5em 0;
+      width: 3em;
+      border-width: 0;
+      border-top: 1px solid rgba(249,249,249,0.31);
+    }
+  }
+
+  .project {
+    float: left;
+  }
+
+  .role {
+    float: right;
+  }
+
+  //intro
+  .intro .content {
+    p:nth-child(2) {
+      font-family: $primary-font-stack;
+      font-weight: 400;
+      font-size: 1.5em;
+      color: #ED2030;
+    }
+  }
+
+  //problem
+  .problem {
+    background-color: #fff;
+    .content {
+      p:nth-child(1) {
+        font-family: $primary-font-stack;
+        font-weight: 400;
+        font-size: 1.3em;
+        color: #ED2030;
+        text-align: center;
+      }
+    }
+  }
+
+  //solution 
+  .solution {
+    background-color: #2F2F2D;
+    .content {
+      p:nth-child(2) {
+        font-family: $primary-font-stack;
+        font-weight: 400;
+        font-size: 1.3em;
+        color: #55C8CB;
+        text-align: center;
+      }
+      p:nth-child(3) {
+        color: $body-text-color-light;
+      }
+    }
+  }
+
+  //case-study-images
+  .case-study-image {
+
+    .content {
+      padding: 0;
+    }
+
+    img {
+      @extend %full-width-img;
+    }
+  }
+
+  //status
+  .status {
+    .content {
+      p:nth-child(1) {
+        font-family: $primary-font-stack;
+        font-weight: 300;
+        color: #000;
+        text-align: center;
+      }
+    }
+  }
+
+  //feedback
+  .feedback {
+    background-color: #4E4E4E;
+    .content {
+      p {
+        color: $body-text-color-light;
+        font-weight: 400;
+        span.quote {
+          color: $body-text-color-light;
+        }
+      }
+      p:nth-child(1), h6 {
+        color: #C7C9C9;
+      }
+
+      h6 {
+        font-weight: 400;
+      }
+    }
+  }
+
+  // View Other Case Studies
+
+  .view-other-work {
+    background-color: #fff;
+
+    p {
+      @extend %p-centered;
+      font-size: 1.1em;
+      color: #4E4E4E;
+    }
+
+  }
+
+  .view-sutra, .view-jottly {
+    background-color: #4BC4D5;
+    display: block;
+
+    .content {
+      display: table;
+    }
+
+    p {
+      @extend %p-centered;
+      font-size: 1.1em;
+      color: #4E4E4E;
+    }
+  }
+
+  .view-jottly {
+    @media screen and (min-width: $small-devices-up) {
+      float: left;;
+    }
+  }
+
+  .view-sutra {
+    background-color: #F6C41F; 
+
+    @media screen and (min-width: $small-devices-up) {
+      float: right;
+    }
+  }
+}
+
+
+
