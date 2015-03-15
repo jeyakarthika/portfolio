@@ -1,9 +1,15 @@
 header {
+
+  @extend %clearfix;
   nav {
     position: relative;
     margin: 0 auto;
     background: $background-color;
-    padding: 1em 0em;
+    padding: 1em 2em;
+
+    @media screen and (min-width: $small-devices-up) {
+      padding: 1em 2em 1em 1em;
+    }
   }
 }
 
@@ -12,6 +18,10 @@ header {
   width: 100%;
   display: block;
   @extend %center-text;
+
+  @media screen and (min-width: $small-devices-up) {
+    width: initial;
+  }
 
   img {
     width: 4em;
@@ -25,6 +35,16 @@ ul.pure-menu-list.menu {
   width: 100%;
 }
 
+header {
+  ul.pure-menu-list.menu {
+    @media screen and (min-width: $small-devices-up) {
+      width: initial;
+      display: inline-block;
+      float: right;
+    }
+  }
+}
+
 .pure-menu-selected a.pure-menu-link.current-page {
   @extend %highlight;
   border-bottom: 0.2em solid $primary-highlight-color;
@@ -35,10 +55,23 @@ ul.pure-menu-list.menu {
   font-size: 0.9em;
   padding: 0;
   padding-bottom: 0.2em;
-  margin: 1em 0.5em;
+  margin: 1em;
   &:hover {
     background: none;
     @extend %highlight;
     border-bottom: 0.2em solid $primary-highlight-color;
   }
+
+  @media screen and (min-width: $small-devices-up) {
+    font-size: 1em;
+  }
 }
+
+
+
+
+
+
+
+
+

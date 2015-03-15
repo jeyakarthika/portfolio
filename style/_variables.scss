@@ -10,3 +10,10 @@ $section-header-color: #C9C9C9;
 
 $primary-font-stack: "proxima-nova",sans-serif;
 $secondary-font-stack: "minion-pro",serif;
+
+// Responsive Media Query sizes
+// @media screen and (min-width: $small-devices-up)
+$small-devices-up: 35.5em; //≥ 568px
+$medium-devices-up: 48em; //≥ 768px
+$large-devices-up: 64em;  //≥ 1024px
+$extra-large-devices-up: 80em;  //≥ 1280px

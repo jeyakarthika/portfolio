@@ -12,6 +12,9 @@ section, footer {
   p {
     line-height: 1.6;
     padding-top: 0.8em;
+    @media screen and (min-width: $small-devices-up) {
+      font-size: 1.3em;
+    }
   }
 }
 
