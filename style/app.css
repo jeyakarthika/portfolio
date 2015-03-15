@@ -1285,7 +1285,7 @@ https://github.com/yahoo/pure/blob/master/LICENSE.md
 .pure-menu-selected .pure-menu-link:visited {
   color: #000; }
 
-header:after, section:after, footer:after, #work-pitchmojo:after, #work-sutra:after, #work-jottly:after {
+header:after, section:after, footer:after, #work-pitchmojo:after, #work-sutra:after, #work-jottly:after, #pitchmojo .wrapper:after, #pitchmojo .overview:after {
   content: "";
   display: table;
   clear: both; }
@@ -1300,12 +1300,16 @@ p > span, .pure-menu-selected a.pure-menu-link.current-page, .pure-menu-link:hov
 .logo, ul.pure-menu-list.menu, footer {
   text-align: center; }
 
-.section-content, .work-content, .footer-content {
+.section-content, .work-content, .footer-content, #pitchmojo .content {
   position: relative;
   text-align: center;
   padding: 2em;
   width: 100%;
   height: auto; }
+
+#pitchmojo .view-other-work p, #pitchmojo .view-sutra p, #pitchmojo .view-jottly p {
+  font-family: "proxima-nova", sans-serif;
+  text-align: center; }
 
 * {
   -webkit-box-sizing: border-box;
@@ -1340,6 +1344,11 @@ p {
 
 p > span {
   font-style: italic; }
+
+h5 {
+  font-weight: 600;
+  font-size: 1.8em;
+  color: #4E4E4E; }
 
 header nav {
   position: relative;
@@ -1517,3 +1526,111 @@ section, footer {
       color: #404040; }
     .bottom-nav .copyright p:hover a {
       color: #de6162; }
+
+#pitchmojo hr {
+  width: 3em;
+  margin-top: 3em;
+  margin-bottom: 3.5em;
+  border-width: 0;
+  border-top: 1px solid rgba(249, 249, 249, 0.31); }
+#pitchmojo .wrapper {
+  display: table; }
+#pitchmojo .content {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: left; }
+  #pitchmojo .content p {
+    padding: 0.5em 0;
+    font-size: 1.1em; }
+  #pitchmojo .content p.section-icon {
+    text-align: center; }
+  #pitchmojo .content .fa {
+    text-align: center;
+    color: #C7C9C9;
+    font-size: 2.5em; }
+#pitchmojo .case-study-hero {
+  text-align: center;
+  height: 25em;
+  background: url("../images/pitchmojo/casestudy-pitchmojo-hero.jpg");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover; }
+  #pitchmojo .case-study-hero p {
+    font-size: 2em;
+    color: #f9f9f9;
+    text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5); }
+  #pitchmojo .case-study-hero h3 {
+    font-size: 2.5em;
+    color: #ED2030;
+    text-shadow: 0px 2px 4px #171617;
+    padding-bottom: 0.3em; }
+  #pitchmojo .case-study-hero h4 {
+    color: #F9F9F9; }
+#pitchmojo .project-description p {
+  font-family: "proxima-nova", sans-serif;
+  font-weight: 300;
+  font-size: 1.2em;
+  color: #A5A5A5; }
+#pitchmojo .overview {
+  height: 27em;
+  background-color: #55C8CB;
+  display: block; }
+  #pitchmojo .overview .content {
+    display: table; }
+  #pitchmojo .overview p {
+    font-size: 1.2em;
+    color: #4E4E4E;
+    line-height: 29px; }
+  #pitchmojo .overview hr {
+    margin: 1.5em 0;
+    width: 3em;
+    border-width: 0;
+    border-top: 1px solid rgba(249, 249, 249, 0.31); }
+#pitchmojo .project {
+  float: left; }
+#pitchmojo .role {
+  float: right; }
+#pitchmojo .intro .content p:nth-child(2) {
+  font-family: "proxima-nova", sans-serif;
+  font-weight: 400;
+  font-size: 1.5em;
+  color: #ED2030; }
+#pitchmojo .problem {
+  background-color: #fff; }
+  #pitchmojo .problem .content p:nth-child(1) {
+    font-family: "proxima-nova", sans-serif;
+    font-weight: 400;
+    font-size: 1.3em;
+    color: #ED2030;
+    text-align: center; }
+#pitchmojo .solution {
+  background-color: #2F2F2D; }
+  #pitchmojo .solution .content p:nth-child(2) {
+    font-family: "proxima-nova", sans-serif;
+    font-weight: 400;
+    font-size: 1.3em;
+    color: #55C8CB;
+    text-align: center; }
+  #pitchmojo .solution .content p:nth-child(3) {
+    color: #f9f9f9; }
+#pitchmojo .view-other-work {
+  background-color: #fff; }
+  #pitchmojo .view-other-work p {
+    font-size: 1.1em;
+    color: #4E4E4E; }
+#pitchmojo .view-sutra, #pitchmojo .view-jottly {
+  background-color: #4BC4D5;
+  display: block; }
+  #pitchmojo .view-sutra .content, #pitchmojo .view-jottly .content {
+    display: table; }
+  #pitchmojo .view-sutra p, #pitchmojo .view-jottly p {
+    font-size: 1.1em;
+    color: #4E4E4E; }
+@media screen and (min-width: 35.5em) {
+  #pitchmojo .view-jottly {
+    float: left; } }
+#pitchmojo .view-sutra {
+  background-color: #F6C41F; }
+  @media screen and (min-width: 35.5em) {
+    #pitchmojo .view-sutra {
+      float: right; } }
