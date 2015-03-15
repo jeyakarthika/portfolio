@@ -39,3 +39,10 @@
   font-family: $primary-font-stack;
   text-align: center;
 }
+
+%full-width-img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: auto;
+}

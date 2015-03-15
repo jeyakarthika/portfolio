@@ -1311,6 +1311,12 @@ p > span, .pure-menu-selected a.pure-menu-link.current-page, .pure-menu-link:hov
   font-family: "proxima-nova", sans-serif;
   text-align: center; }
 
+#pitchmojo .case-study-image img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: auto; }
+
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -1349,6 +1355,13 @@ h5 {
   font-weight: 600;
   font-size: 1.8em;
   color: #4E4E4E; }
+
+h6 {
+  font-weight: 300;
+  font-size: 1.5em;
+  color: #ED2030;
+  text-align: center;
+  line-height: 1.8; }
 
 header nav {
   position: relative;
@@ -1613,6 +1626,24 @@ section, footer {
     text-align: center; }
   #pitchmojo .solution .content p:nth-child(3) {
     color: #f9f9f9; }
+#pitchmojo .case-study-image .content {
+  padding: 0; }
+#pitchmojo .status .content p:nth-child(1) {
+  font-family: "proxima-nova", sans-serif;
+  font-weight: 300;
+  color: #000;
+  text-align: center; }
+#pitchmojo .feedback {
+  background-color: #4E4E4E; }
+  #pitchmojo .feedback .content p {
+    color: #f9f9f9;
+    font-weight: 400; }
+    #pitchmojo .feedback .content p span.quote {
+      color: #f9f9f9; }
+  #pitchmojo .feedback .content p:nth-child(1), #pitchmojo .feedback .content h6 {
+    color: #C7C9C9; }
+  #pitchmojo .feedback .content h6 {
+    font-weight: 400; }
 #pitchmojo .view-other-work {
   background-color: #fff; }
   #pitchmojo .view-other-work p {
