@@ -1,0 +1,46 @@
+
+@mixin hide-text() {
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+@mixin box() {
+  padding: 1em;
+}
+
+@mixin menu-fixed() {
+  width: 100%;
+  white-space: nowrap;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 3;
+  display: inline-block;
+  zoom: 1;
+  vertical-align: middle;
+}
+
+@mixin display-block() {
+  display: block;
+}
+
+@mixin work-bg($img-url) {
+  background: url($img-url);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+}
+
+@mixin view-case-study($active-color, $normal-color) {
+    font-size: 0.8em;
+    border: 2px solid $normal-color;
+    border-radius: 4px;
+    padding: 0.8em 1em;
+
+    &:hover,
+    &:active {
+      background-color: $normal-color;
+      color: $active-color;
+    }
+  }

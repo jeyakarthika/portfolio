@@ -1,0 +1,90 @@
+section, footer {
+  @extend %clearfix;
+  position: relative;
+}
+.section-content, .work-content, .footer-content {
+  @extend %container;
+}
+
+.section-content {
+  text-align: left;
+
+  p {
+    line-height: 1.6;
+    padding-top: 0.8em;
+  }
+}
+
+.work-content {
+  height: 20em;
+  display: table-cell;
+  vertical-align: middle;
+
+  h3, h4, p , a {
+    color: $body-text-color-light;
+  }
+
+  h4 {
+    padding: 0;
+  }
+
+  h3 {
+    padding: 0.3em 0 0.5em;
+    text-shadow: 0px 2px 4px #171617;
+  }
+
+  p {
+    padding: 1em 0 0.8em;
+    width: 15em;
+    margin: 0 auto;
+  }
+
+  a {
+    margin: 0.5em 0;
+    display: inline-flex;
+    @include view-case-study($nav-text-color, $body-text-color-light);
+  }
+  
+}
+
+#work-pitchmojo, #work-sutra, #work-jottly {
+  width: 100%;
+  display: table;
+
+  @extend %clearfix;
+}
+
+#work-pitchmojo {
+  @include work-bg("../images/work-pitchmojo-bg.jpg");
+
+  h3 {
+    color: #ED2030;
+  }
+}
+
+#work-sutra {
+  @include work-bg("../images/work-sutra-bg.jpg");
+    h3, h4, p , a {
+    color: $work-section-text-color-dark;
+    }
+
+    h3 {
+      color: #F9F9F9;
+      text-shadow: 0px 2px 5px rgba(23,22,23,0.19);
+    }
+
+    a {
+      margin: 0.5em 0;
+      display: inline-flex;
+      @include view-case-study($body-text-color-light, $work-section-text-color-dark);
+    }
+}
+
+#work-jottly {
+  @include work-bg("../images/work-jottly-bg.jpg");
+
+  h3 {
+    color: #2F2F2D;
+    text-shadow: 0px 2px 4px rgba(23,22,23,0.19);
+  }
+}
