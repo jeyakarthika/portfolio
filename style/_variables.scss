@@ -13,6 +13,9 @@ $secondary-font-stack: "minion-pro",serif;
 
 // Responsive Media Query sizes
 // @media screen and (min-width: $small-devices-up)
+// @media screen and (min-width: $medium-devices-up)
+// @media screen and (min-width: $large-devices-up)
+// @media screen and (min-width: $extra-large--devices-up)
 $small-devices-up: 35.5em; //≥ 568px
 $medium-devices-up: 48em; //≥ 768px
 $large-devices-up: 64em;  //≥ 1024px
