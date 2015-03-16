@@ -43,81 +43,83 @@
     <!--[if IE 8]> <html class="ie8"> <![endif]-->  
 
   <style type="text/css">
+    *, *:before, *:after {
+          -moz-box-sizing: border-box;
+          box-sizing: border-box;
+      }
 
+        html, body {
+        font-size: 16px;
+          height: 100%;
+          margin: 0;
+      }
 
-  *, *:before, *:after {
-      -moz-box-sizing: border-box;
-      box-sizing: border-box;
-  }
+      body {
+        padding: 2em;
+        background-color: #171617;
+        font-family: Helvetica, Arial, san-serif;
+      }
 
-    html, body {
-    font-size: 16px;
-      height: 100%;
-      margin: 0;
-  }
+      h1, h2, h3, h4, h5, h6, p, a {
+        margin: 0;
+        color: #171617;
+      }
 
-  body {
-    padding: 2em;
-    background-color: #171617;
-    font-family: Helvetica, Arial, san-serif;
-  }
+      h1 {
+        font-size: 2.5em;
+        margin: 2em 1em 1em;
+      }
 
-  h1, h2, h3, h4, h5, h6, p, a {
-    margin: 0;
-    color: #171617;
-  }
+      p {
+        font-weight:normal;
+        font-size: 1em;
+        line-height: 1.5em;
+        margin: 0.5em 2.5em;
+      }
 
-  h1 {
-    font-size: 2.5em;
-    margin: 2em 1em 1em;
-  }
-
-  p {
-    font-weight:normal;
-    font-size: 1em;
-    line-height: 1.5em;
-    margin: 0.5em 3em;
-    text-align: left;
-  }
-
-  .container {
+    .container {
+      position: absolute;
       display: table;
-      height: 100%;
-      min-height: 100%;
-      position: relative;
+      top: 0;
+      bottom: 0;
+      right: 0;
+      left:0;
+      margin: 0 auto;
       width: 100%;
-  }
+      height: 100%;
+      background: #fff;
+      max-width: 100%
+    }
 
-  .content {
-      padding: 5em;
-      background-color: #f1f1f1;
+    .content {
+      text-align: left;
       display: table-cell;
-      height: 100%;
-      overflow: hidden;
-      width: 100%;
-      text-align: center;
-  }
+      vertical-align: middle;
+      background: #f1f1f1;
+    }
 
-  a {
-    margin: 2em;
-    text-decoration: none;
-    padding: 1em;
-    display: inline-flex;
-    background-color: #171617;
-    color: #f1f1f1;
-  }
+      a {
+        margin: 2em;
+        text-decoration: none;
+        padding: 1em;
+        display: inline-flex;
+        background-color: #171617;
+        color: #f1f1f1;
+      }
+    a:hover {
+      background-color: #303030;
+    }
 
 </style>
 </head>
 <body>
   <div class="container">
     <div class="content">
-       <img src="images/logo.png" class="animated fadeInDown" />
-         <h1>Under construction</h1>
-         <p>Hi there, Thanks for stopping by. </p>
-         <p>I am Jeya Karthika, a UX designer based in Brisbane, crafting delightful visual experiences for mobile/web that empower and engage users.</p>
-         <p>My Portfolio is currently under construction. Please check back in a few days. Meanwhile, feel free to take a sneak peek of what is in the works. It might be a little buggy though.</p>
-        <a href="http://jeya.io/portfolio">Take a Sneak Peek</a>
+      <h1>Under Construction</h1>
+      <p>Hi there,</p> 
+      <p>Thanks for stopping by. </p>
+       <p>I am Jeya Karthika, a UX designer based in Brisbane, crafting delightful visual experiences for mobile/web that empower and engage users.My Portfolio is currently under construction. Please check back in a few days. Meanwhile, feel free to take a sneak peek of what is in the works. It might be a little buggy though.</p>
+      <a href="#">Take a sneak peek</a>
     </div>
   </div>
   <!-- Google Analytics -->
