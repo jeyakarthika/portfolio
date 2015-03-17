@@ -1285,7 +1285,7 @@ https://github.com/yahoo/pure/blob/master/LICENSE.md
 .pure-menu-selected .pure-menu-link:visited {
   color: #000; }
 
-header:after, section:after, footer:after, #work-pitchmojo:after, #work-sutra:after, #work-jottly:after, #pitchmojo .wrapper:after, #pitchmojo .overview:after {
+header:after, section:after, footer:after, #work-pitchmojo:after, #work-sutra:after, #work-jottly:after, #pitchmojo .overview:after {
   content: "";
   display: table;
   clear: both; }
@@ -1673,7 +1673,8 @@ section, footer {
   border-width: 0;
   border-top: 1px solid rgba(249, 249, 249, 0.31); }
 #pitchmojo .wrapper {
-  display: table; }
+  display: table;
+  width: 100%; }
 #pitchmojo .content {
   display: table-cell;
   vertical-align: middle;

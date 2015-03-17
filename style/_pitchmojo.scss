@@ -10,7 +10,8 @@
 
   .wrapper {
     display: table;
-    @extend %clearfix;
+    width: 100%;
+    // @extend %clearfix;
   }
 
   .content {
