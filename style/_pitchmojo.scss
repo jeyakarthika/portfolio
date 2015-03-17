@@ -23,6 +23,10 @@
     p {
       padding: 0.5em 0;
       font-size: 1.1em;
+
+      @media screen and (min-width: $small-devices-up) {
+        font-size: 1.2em;
+      }
     }
 
     // Section Icons
@@ -42,10 +46,18 @@
     height: 25em;
     @include work-bg("../images/pitchmojo/casestudy-pitchmojo-hero.jpg");
 
+    @media screen and (min-width: $small-devices-up) {
+      height: 30em;
+    }
+
     p {
       font-size: 2em;
+      padding: 0;
       color: $body-text-color-light;
       text-shadow: 0px 2px 4px rgba(0,0,0,0.50);
+      @media screen and (min-width: $small-devices-up) {
+        font-size: 3.5em;
+      }
     }
 
     h3 {
@@ -53,6 +65,9 @@
       color: #ED2030;
       text-shadow: 0px 2px 4px #171617;
       padding-bottom: 0.3em;
+      @media screen and (min-width: $small-devices-up) {
+        font-size: 3em;
+      }
     }
 
     h4 {
@@ -68,6 +83,9 @@
       font-weight: 300;
       font-size: 1.2em;
       color: #A5A5A5;
+      @media screen and (min-width: $small-devices-up) {
+        font-size: 1.4em;
+      }
     }
   }
 
@@ -85,6 +103,9 @@
       font-size: 1.2em;
       color: #4E4E4E;
       line-height: 29px;
+      @media screen and (min-width: $small-devices-up) {
+        font-size: 1.3em;
+      }
     }
 
     hr {
@@ -119,6 +140,10 @@
       font-weight: 400;
       font-size: 1.5em;
       color: #ED2030;
+
+      @media screen and (min-width: $small-devices-up) {
+        font-size: 1.7em;
+      }
     }
   }
 
@@ -128,8 +153,8 @@
     .content {
       p:nth-child(1) {
         font-family: $primary-font-stack;
-        font-weight: 400;
-        font-size: 1.3em;
+        font-weight: 300;
+        font-size: 1.5em;
         color: #ED2030;
         text-align: center;
       }
@@ -142,8 +167,8 @@
     .content {
       p:nth-child(2) {
         font-family: $primary-font-stack;
-        font-weight: 400;
-        font-size: 1.3em;
+        font-weight: 300;
+        font-size: 1.5em;
         color: #55C8CB;
         text-align: center;
       }
@@ -207,6 +232,10 @@
       @extend %p-centered;
       font-size: 1.1em;
       color: #4E4E4E;
+
+      @media screen and (min-width: $small-devices-up) {
+        font-size: 1.3em;
+      }
     }
 
   }
@@ -223,6 +252,11 @@
       @extend %p-centered;
       font-size: 1.1em;
       color: #4E4E4E;
+
+      @media screen and (min-width: $small-devices-up) {
+        font-size: 1.5em;
+      }
+      
       a {
         color: #000;
       }
