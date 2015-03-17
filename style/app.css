@@ -1484,6 +1484,9 @@ section, footer {
   @media screen and (min-width: 48em) {
     .work-content {
       height: 30em; } }
+  @media screen and (min-width: 64em) {
+    .work-content {
+      height: 35em; } }
   .work-content h3, .work-content h4, .work-content p, .work-content a {
     color: #f9f9f9; }
   .work-content h4 {
