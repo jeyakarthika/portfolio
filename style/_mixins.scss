@@ -47,6 +47,10 @@
       font-size: 1em;
     }
 
+    @media screen and (min-width: $large-devices-up) {
+      font-size: 1.1em;
+    }
+
     &:hover,
     &:active {
       background-color: $normal-color;

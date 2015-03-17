@@ -1338,6 +1338,9 @@ h2 {
   @media screen and (min-width: 48em) {
     h2 {
       font-size: 3em; } }
+  @media screen and (min-width: 64em) {
+    h2 {
+      font-size: 3.5em; } }
 
 h3 {
   font-size: 2.3em;
@@ -1345,6 +1348,9 @@ h3 {
   @media screen and (min-width: 35.5em) {
     h3 {
       font-size: 3em; } }
+  @media screen and (min-width: 64em) {
+    h3 {
+      font-size: 3.2em; } }
 
 h4 {
   font-size: 0.9em;
@@ -1352,6 +1358,9 @@ h4 {
   @media screen and (min-width: 35.5em) {
     h4 {
       font-size: 1em; } }
+  @media screen and (min-width: 64em) {
+    h4 {
+      font-size: 1.2em; } }
 
 p {
   font-family: "minion-pro", serif;
@@ -1365,6 +1374,9 @@ p {
   @media screen and (min-width: 48em) {
     p {
       font-size: 1.5em; } }
+  @media screen and (min-width: 64em) {
+    p {
+      font-size: 1.7em; } }
 
 p > span {
   font-style: italic; }
@@ -1405,6 +1417,9 @@ header nav {
     @media screen and (min-width: 48em) {
       .logo img {
         width: 5em; } }
+    @media screen and (min-width: 64em) {
+      .logo img {
+        width: 6em; } }
 
 ul.pure-menu-list.menu {
   display: block;
@@ -1434,12 +1449,18 @@ ul.pure-menu-list.menu {
   @media screen and (min-width: 48em) {
     .pure-menu-link {
       font-size: 1.1em; } }
+  @media screen and (min-width: 64em) {
+    .pure-menu-link {
+      font-size: 1.2em; } }
 
 section, footer {
   position: relative; }
 
 .section-content {
   text-align: left; }
+  @media screen and (min-width: 64em) {
+    .section-content {
+      width: 85%; } }
   .section-content p {
     line-height: 1.6;
     padding-top: 0.8em; }
@@ -1449,6 +1470,9 @@ section, footer {
     @media screen and (min-width: 48em) {
       .section-content p {
         font-size: 1.6em; } }
+    @media screen and (min-width: 64em) {
+      .section-content p {
+        font-size: 2em; } }
 
 .work-content {
   height: 23em;
@@ -1484,6 +1508,9 @@ section, footer {
     @media screen and (min-width: 48em) {
       .work-content a {
         font-size: 1em; } }
+    @media screen and (min-width: 64em) {
+      .work-content a {
+        font-size: 1.1em; } }
     .work-content a:hover, .work-content a:active {
       background-color: #f9f9f9;
       color: #4e4e4e; }
@@ -1523,6 +1550,9 @@ section, footer {
     @media screen and (min-width: 48em) {
       #work-sutra a {
         font-size: 1em; } }
+    @media screen and (min-width: 64em) {
+      #work-sutra a {
+        font-size: 1.1em; } }
     #work-sutra a:hover, #work-sutra a:active {
       background-color: black;
       color: #f9f9f9; }
@@ -1548,6 +1578,9 @@ section, footer {
     @media screen and (min-width: 48em) {
       .call-to-action p:nth-child(1) {
         font-size: 2em; } }
+    @media screen and (min-width: 64em) {
+      .call-to-action p:nth-child(1) {
+        font-size: 2.2em; } }
   .call-to-action p:nth-child(2) {
     font-weight: 100;
     font-size: 1em; }
@@ -1557,6 +1590,9 @@ section, footer {
     @media screen and (min-width: 48em) {
       .call-to-action p:nth-child(2) {
         font-size: 1.3em; } }
+    @media screen and (min-width: 64em) {
+      .call-to-action p:nth-child(2) {
+        font-size: 1.5em; } }
   .call-to-action p a {
     color: #de6162;
     border-bottom: 1px solid #de6162; }
@@ -1572,6 +1608,9 @@ section, footer {
     @media screen and (min-width: 48em) {
       .social-media-icons div.icon {
         padding: 0 1.5em; } }
+    @media screen and (min-width: 64em) {
+      .social-media-icons div.icon {
+        padding: 0 2.5em; } }
     .social-media-icons div.icon a {
       color: #333;
       padding: 1em; }
@@ -1580,6 +1619,9 @@ section, footer {
         @media screen and (min-width: 35.5em) {
           .social-media-icons div.icon a span {
             font-size: 2.5em; } }
+        @media screen and (min-width: 64em) {
+          .social-media-icons div.icon a span {
+            font-size: 3em; } }
       .social-media-icons div.icon a:hover {
         color: #de6162; }
 
@@ -1599,7 +1641,12 @@ section, footer {
       font-size: 0.9em; }
       @media screen and (min-width: 48em) {
         .bottom-nav .copyright p:nth-child(1), .bottom-nav .copyright p a {
+          padding-top: 1.2em;
           font-size: 1em; } }
+      @media screen and (min-width: 64em) {
+        .bottom-nav .copyright p:nth-child(1), .bottom-nav .copyright p a {
+          padding-top: 1.5em;
+          font-size: 1.1em; } }
       .bottom-nav .copyright p:nth-child(1) span.fa, .bottom-nav .copyright p a span.fa {
         color: #FF0000;
         padding: 0.5em; }
@@ -1608,6 +1655,9 @@ section, footer {
       @media screen and (min-width: 48em) {
         .bottom-nav .copyright p:nth-child(2) {
           font-size: 0.9em; } }
+      @media screen and (min-width: 64em) {
+        .bottom-nav .copyright p:nth-child(2) {
+          font-size: 1em; } }
     .bottom-nav .copyright p a {
       color: #404040; }
     .bottom-nav .copyright p:hover a {
