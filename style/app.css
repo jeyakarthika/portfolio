@@ -1285,7 +1285,7 @@ https://github.com/yahoo/pure/blob/master/LICENSE.md
 .pure-menu-selected .pure-menu-link:visited {
   color: #000; }
 
-header:after, section:after, footer:after, #work-pitchmojo:after, #work-sutra:after, #work-jottly:after, #pitchmojo .wrapper:after, #pitchmojo .overview:after {
+header:after, section:after, footer:after, #work-pitchmojo:after, #work-sutra:after, #work-jottly:after, #pitchmojo .overview:after {
   content: "";
   display: table;
   clear: both; }
@@ -1385,6 +1385,9 @@ h5 {
   font-weight: 600;
   font-size: 1.8em;
   color: #4E4E4E; }
+  @media screen and (min-width: 35.5em) {
+    h5 {
+      font-size: 2em; } }
 
 h6 {
   font-weight: 300;
@@ -1392,6 +1395,9 @@ h6 {
   color: #ED2030;
   text-align: center;
   line-height: 1.8; }
+  @media screen and (min-width: 35.5em) {
+    h6 {
+      font-size: 1.7em; } }
 
 header nav {
   position: relative;
@@ -1673,7 +1679,8 @@ section, footer {
   border-width: 0;
   border-top: 1px solid rgba(249, 249, 249, 0.31); }
 #pitchmojo .wrapper {
-  display: table; }
+  display: table;
+  width: 100%; }
 #pitchmojo .content {
   display: table-cell;
   vertical-align: middle;
@@ -1681,6 +1688,9 @@ section, footer {
   #pitchmojo .content p {
     padding: 0.5em 0;
     font-size: 1.1em; }
+    @media screen and (min-width: 35.5em) {
+      #pitchmojo .content p {
+        font-size: 1.2em; } }
   #pitchmojo .content p.section-icon {
     text-align: center; }
   #pitchmojo .content .fa {
@@ -1694,15 +1704,25 @@ section, footer {
   background-repeat: no-repeat;
   background-position: top center;
   background-size: cover; }
+  @media screen and (min-width: 35.5em) {
+    #pitchmojo .case-study-hero {
+      height: 30em; } }
   #pitchmojo .case-study-hero p {
     font-size: 2em;
+    padding: 0;
     color: #f9f9f9;
     text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5); }
+    @media screen and (min-width: 35.5em) {
+      #pitchmojo .case-study-hero p {
+        font-size: 3.5em; } }
   #pitchmojo .case-study-hero h3 {
     font-size: 2.5em;
     color: #ED2030;
     text-shadow: 0px 2px 4px #171617;
     padding-bottom: 0.3em; }
+    @media screen and (min-width: 35.5em) {
+      #pitchmojo .case-study-hero h3 {
+        font-size: 3em; } }
   #pitchmojo .case-study-hero h4 {
     color: #F9F9F9; }
 #pitchmojo .project-description p {
@@ -1710,6 +1730,9 @@ section, footer {
   font-weight: 300;
   font-size: 1.2em;
   color: #A5A5A5; }
+  @media screen and (min-width: 35.5em) {
+    #pitchmojo .project-description p {
+      font-size: 1.4em; } }
 #pitchmojo .overview {
   background-color: #55C8CB;
   width: 100%; }
@@ -1719,6 +1742,9 @@ section, footer {
     font-size: 1.2em;
     color: #4E4E4E;
     line-height: 29px; }
+    @media screen and (min-width: 35.5em) {
+      #pitchmojo .overview p {
+        font-size: 1.3em; } }
   #pitchmojo .overview hr {
     margin: 1.5em 0;
     width: 3em;
@@ -1736,20 +1762,23 @@ section, footer {
   font-weight: 400;
   font-size: 1.5em;
   color: #ED2030; }
+  @media screen and (min-width: 35.5em) {
+    #pitchmojo .intro .content p:nth-child(2) {
+      font-size: 1.7em; } }
 #pitchmojo .problem {
   background-color: #fff; }
   #pitchmojo .problem .content p:nth-child(1) {
     font-family: "proxima-nova", sans-serif;
-    font-weight: 400;
-    font-size: 1.3em;
+    font-weight: 300;
+    font-size: 1.5em;
     color: #ED2030;
     text-align: center; }
 #pitchmojo .solution {
   background-color: #2F2F2D; }
   #pitchmojo .solution .content p:nth-child(2) {
     font-family: "proxima-nova", sans-serif;
-    font-weight: 400;
-    font-size: 1.3em;
+    font-weight: 300;
+    font-size: 1.5em;
     color: #55C8CB;
     text-align: center; }
   #pitchmojo .solution .content p:nth-child(3) {
@@ -1777,6 +1806,9 @@ section, footer {
   #pitchmojo .view-other-work p {
     font-size: 1.1em;
     color: #4E4E4E; }
+    @media screen and (min-width: 35.5em) {
+      #pitchmojo .view-other-work p {
+        font-size: 1.3em; } }
 #pitchmojo .view-sutra, #pitchmojo .view-jottly {
   background-color: #4BC4D5;
   display: block; }
@@ -1785,6 +1817,9 @@ section, footer {
   #pitchmojo .view-sutra p, #pitchmojo .view-jottly p {
     font-size: 1.1em;
     color: #4E4E4E; }
+    @media screen and (min-width: 35.5em) {
+      #pitchmojo .view-sutra p, #pitchmojo .view-jottly p {
+        font-size: 1.5em; } }
     #pitchmojo .view-sutra p a, #pitchmojo .view-jottly p a {
       color: #000; }
 @media screen and (min-width: 35.5em) {

@@ -68,6 +68,9 @@ h5 {
   font-weight: 600;
   font-size: 1.8em;
   color: #4E4E4E;
+  @media screen and (min-width: $small-devices-up) {
+    font-size: 2em;
+  }
 }
 
 h6 {
@@ -76,4 +79,8 @@ h6 {
   color: #ED2030;
   text-align: center;
   line-height: 1.8;
+
+  @media screen and (min-width: $small-devices-up) {
+    font-size: 1.7em;
+  }
 }
