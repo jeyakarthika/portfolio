@@ -1318,7 +1318,7 @@ p > span, .pure-menu-selected a.pure-menu-link.current-page, .pure-menu-link:hov
   max-width: 100%;
   height: auto;
   display: block;
-  margin: auto; }
+  margin: 0 auto; }
 
 * {
   -webkit-box-sizing: border-box;
@@ -1870,6 +1870,8 @@ section, footer {
     color: #f9f9f9; }
 #pitchmojo .case-study-image .content {
   padding: 0; }
+#pitchmojo .case-study-image img.img-width-adjust {
+  width: 100%; }
 #pitchmojo .status .content p:nth-child(1) {
   font-family: "proxima-nova", sans-serif;
   font-weight: 300;
@@ -1885,9 +1887,13 @@ section, footer {
   #pitchmojo .feedback .content p:nth-child(1), #pitchmojo .feedback .content h6 {
     color: #C7C9C9; }
   #pitchmojo .feedback .content h6 {
-    font-weight: 400; }
+    font-weight: 400;
+    color: #55C8CB; }
 #pitchmojo .view-other-work {
   background-color: #fff; }
+  @media screen and (min-width: 48em) {
+    #pitchmojo .view-other-work .content {
+      padding: 2em 4em; } }
   #pitchmojo .view-other-work p {
     font-size: 1.1em;
     color: #4E4E4E; }
@@ -1902,6 +1908,9 @@ section, footer {
   display: block; }
   #pitchmojo .view-sutra .content, #pitchmojo .view-jottly .content {
     display: table; }
+    @media screen and (min-width: 48em) {
+      #pitchmojo .view-sutra .content, #pitchmojo .view-jottly .content {
+        padding: 2em 4em; } }
   @media screen and (min-width: 35.5em) {
     #pitchmojo .view-sutra, #pitchmojo .view-jottly {
       width: 50%; } }
