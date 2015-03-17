@@ -25,6 +25,9 @@
   padding: 2em; 
   width: 100%;
   height: auto;
+  @media screen and (min-width: $medium-devices-up) {
+    padding: 3em;
+  }
 }
 
 %vertical-align {
