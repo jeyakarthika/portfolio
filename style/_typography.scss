@@ -71,6 +71,12 @@ h5 {
   @media screen and (min-width: $small-devices-up) {
     font-size: 2em;
   }
+  @media screen and (min-width: $medium-devices-up) {
+    font-size: 2.2em;
+  }
+  @media screen and (min-width: $large-devices-up) {
+    font-size: 2.4em;
+  }
 }
 
 h6 {
@@ -82,5 +88,13 @@ h6 {
 
   @media screen and (min-width: $small-devices-up) {
     font-size: 1.7em;
+  }
+
+  @media screen and (min-width: $medium-devices-up)  {
+    font-size: 2em;
+  }
+
+  @media screen and (min-width: $large-devices-up) {
+    font-size: 2.3em;
   }
 }
