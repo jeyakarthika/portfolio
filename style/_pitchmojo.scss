@@ -90,6 +90,10 @@
       height: 40em;
     }
 
+    @media screen and (min-width: $extra-large-devices-up) {
+      height: 45em;
+    }
+
     p {
       font-size: 2em;
       padding: 0;
