@@ -1653,7 +1653,7 @@ section, footer {
   .bottom-nav .copyright p {
     color: #404040;
     font-family: "proxima-nova", sans-serif;
-    font-weight: 100; }
+    font-weight: 400; }
     @media screen and (min-width: 48em) {
       .bottom-nav .copyright p {
         line-height: 1.8; } }
