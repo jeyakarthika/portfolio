@@ -29,11 +29,15 @@
     }
 
     @media screen and (min-width: $large-devices-up) {
-      padding: 2.8em 8em;
+      padding: 2.8em 10%;
     }
 
     @media screen and (min-width: $extra-large-devices-up) {
-      padding: 2.8em 16em;
+      padding: 2.8em 15%;
+    }
+
+    @media screen and (min-width: $XX-large-devices-up) {
+      padding: 2.8em 20%;
     }
 
     p {
