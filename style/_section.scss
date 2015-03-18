@@ -13,6 +13,14 @@ section, footer {
     width: 85%;
   }
 
+  @media screen and (min-width: $extra-large-devices-up) {
+    width: 70%;
+  }
+
+  @media screen and (min-width: $XX-large-devices-up) {
+    width: 60%;
+  }
+
   p {
     line-height: 1.6;
     padding-top: 0.8em;

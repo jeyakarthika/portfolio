@@ -1479,6 +1479,12 @@ section, footer {
   @media screen and (min-width: 64em) {
     .section-content {
       width: 85%; } }
+  @media screen and (min-width: 80em) {
+    .section-content {
+      width: 70%; } }
+  @media screen and (min-width: 93em) {
+    .section-content {
+      width: 60%; } }
   .section-content p {
     line-height: 1.6;
     padding-top: 0.8em; }
