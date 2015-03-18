@@ -1505,6 +1505,9 @@ section, footer {
   @media screen and (min-width: 64em) {
     .work-content {
       height: 35em; } }
+  @media screen and (min-width: 80em) {
+    .work-content {
+      height: 40em; } }
   .work-content h3, .work-content h4, .work-content p, .work-content a {
     color: #f9f9f9; }
   .work-content h4 {
@@ -1746,6 +1749,9 @@ section, footer {
   @media screen and (min-width: 64em) {
     #pitchmojo .case-study-hero {
       height: 40em; } }
+  @media screen and (min-width: 80em) {
+    #pitchmojo .case-study-hero {
+      height: 45em; } }
   #pitchmojo .case-study-hero p {
     font-size: 2em;
     padding: 0;
