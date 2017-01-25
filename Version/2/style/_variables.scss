@@ -1,0 +1,23 @@
+
+$background-color: #f9f9f9;
+$nav-text-color: #4E4E4E;
+$body-text-color: #707070;
+$body-text-color-light: $background-color;
+$primary-highlight-color: #DE6162;
+$work-section-text-color-dark: #000;
+
+$section-header-color: #C9C9C9;
+
+$primary-font-stack: "proxima-nova",sans-serif;
+$secondary-font-stack: "minion-pro",serif;
+
+// Responsive Media Query sizes
+// @media screen and (min-width: $small-devices-up)
+// @media screen and (min-width: $medium-devices-up)
+// @media screen and (min-width: $large-devices-up)
+// @media screen and (min-width: $extra-large--devices-up)
+$small-devices-up: 35.5em; //≥ 568px
+$medium-devices-up: 48em; //≥ 768px
+$large-devices-up: 64em;  //≥ 1024px
+$extra-large-devices-up: 80em;  //≥ 1280px
+$XX-large-devices-up: 93em; //≥ 1488px
