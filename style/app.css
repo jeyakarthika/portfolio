@@ -1291,7 +1291,7 @@ https://github.com/yahoo/pure/blob/master/LICENSE.md
 .pure-menu-selected .pure-menu-link:visited {
   color: #000; }
 
-header:after, section:after, footer:after, #work-pitchmojo:after, #work-sutra:after, #work-jottly:after, #pitchmojo .overview:after {
+header:after, section:after, footer:after, #work-tradieapp:after, #work-landlordportal:after, #work-bitpool:after, #work-pitchmojo:after, #work-sutra:after, #work-jottly:after, #pitchmojo .overview:after {
   content: "";
   display: table;
   clear: both; }
@@ -1552,9 +1552,33 @@ section, footer {
       background-color: #f9f9f9;
       color: #4e4e4e; }
 
-#work-pitchmojo, #work-sutra, #work-jottly {
+#work-tradieapp, #work-landlordportal, #work-bitpool, #work-pitchmojo, #work-sutra, #work-jottly {
   width: 100%;
   display: table; }
+
+#work-tradieapp {
+  background: url("../images/work-tradieapp-bg.jpg");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover; }
+  #work-tradieapp h3 {
+    color: #4BC4D5; }
+
+#work-landlordportal {
+  background: url("../images/work-landlordportal-bg.jpg");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover; }
+  #work-landlordportal h3 {
+    color: #FFC989; }
+
+#work-bitpool {
+  background: url("../images/work-bitpool-bg.jpg");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover; }
+  #work-bitpool h3 {
+    color: #00ADEE; }
 
 #work-pitchmojo {
   background: url("../images/work-pitchmojo-bg.jpg");
@@ -1699,6 +1723,774 @@ section, footer {
       color: #404040; }
     .bottom-nav .copyright p:hover a {
       color: #de6162; }
+
+#pitchmojo hr {
+  width: 3em;
+  margin-top: 3em;
+  margin-bottom: 3.5em;
+  border-width: 0;
+  border-top: 1px solid rgba(249, 249, 249, 0.31); }
+#pitchmojo .wrapper {
+  display: table;
+  width: 100%; }
+#pitchmojo .content {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: left; }
+  @media screen and (min-width: 35.5em) {
+    #pitchmojo .content {
+      padding: 2.5em 3em; } }
+  @media screen and (min-width: 48em) {
+    #pitchmojo .content {
+      padding: 2.8em 4em; } }
+  @media screen and (min-width: 64em) {
+    #pitchmojo .content {
+      padding: 2.8em 10%; } }
+  @media screen and (min-width: 80em) {
+    #pitchmojo .content {
+      padding: 2.8em 15%; } }
+  @media screen and (min-width: 93em) {
+    #pitchmojo .content {
+      padding: 2.8em 20%; } }
+  #pitchmojo .content p {
+    padding: 0.5em 0;
+    font-size: 1.1em; }
+    @media screen and (min-width: 35.5em) {
+      #pitchmojo .content p {
+        font-size: 1.2em; } }
+    @media screen and (min-width: 48em) {
+      #pitchmojo .content p {
+        font-size: 1.3em; } }
+    @media screen and (min-width: 64em) {
+      #pitchmojo .content p {
+        font-size: 1.4em; } }
+  #pitchmojo .content p.section-icon {
+    text-align: center; }
+  #pitchmojo .content .fa {
+    text-align: center;
+    color: #C7C9C9;
+    font-size: 2.5em; }
+#pitchmojo .case-study-hero {
+  text-align: center;
+  height: 25em;
+  background: url("../images/pitchmojo/casestudy-pitchmojo-hero.jpg");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover; }
+  @media screen and (min-width: 35.5em) {
+    #pitchmojo .case-study-hero {
+      height: 30em; } }
+  @media screen and (min-width: 48em) {
+    #pitchmojo .case-study-hero {
+      height: 35em; } }
+  @media screen and (min-width: 64em) {
+    #pitchmojo .case-study-hero {
+      height: 40em; } }
+  @media screen and (min-width: 80em) {
+    #pitchmojo .case-study-hero {
+      height: 45em; } }
+  #pitchmojo .case-study-hero p {
+    font-size: 2em;
+    padding: 0;
+    color: #f9f9f9;
+    text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5); }
+    @media screen and (min-width: 35.5em) {
+      #pitchmojo .case-study-hero p {
+        font-size: 2.7em; } }
+    @media screen and (min-width: 48em) {
+      #pitchmojo .case-study-hero p {
+        font-size: 3.4em; } }
+    @media screen and (min-width: 64em) {
+      #pitchmojo .case-study-hero p {
+        font-size: 4.1em; } }
+  #pitchmojo .case-study-hero h3 {
+    font-size: 2.5em;
+    color: #ED2030;
+    text-shadow: 0px 2px 4px #171617;
+    padding-bottom: 0.3em; }
+    @media screen and (min-width: 35.5em) {
+      #pitchmojo .case-study-hero h3 {
+        font-size: 3em; } }
+    @media screen and (min-width: 48em) {
+      #pitchmojo .case-study-hero h3 {
+        font-size: 3.5em; } }
+    @media screen and (min-width: 64em) {
+      #pitchmojo .case-study-hero h3 {
+        font-size: 4.3em; } }
+  #pitchmojo .case-study-hero h4 {
+    color: #F9F9F9; }
+    @media screen and (min-width: 48em) {
+      #pitchmojo .case-study-hero h4 {
+        font-size: 1.1em; } }
+    @media screen and (min-width: 64em) {
+      #pitchmojo .case-study-hero h4 {
+        font-size: 1.2em; } }
+#pitchmojo .project-description p {
+  font-family: "proxima-nova", sans-serif;
+  font-weight: 300;
+  font-size: 1.2em;
+  color: #A5A5A5; }
+  @media screen and (min-width: 35.5em) {
+    #pitchmojo .project-description p {
+      font-size: 1.4em; } }
+  @media screen and (min-width: 48em) {
+    #pitchmojo .project-description p {
+      font-size: 1.6em; } }
+  @media screen and (min-width: 64em) {
+    #pitchmojo .project-description p {
+      font-size: 1.8em; } }
+#pitchmojo .overview {
+  background-color: #55C8CB;
+  width: 100%; }
+  #pitchmojo .overview .content {
+    display: inline-table; }
+  #pitchmojo .overview p {
+    font-size: 1.2em;
+    color: #4E4E4E; }
+    @media screen and (min-width: 35.5em) {
+      #pitchmojo .overview p {
+        font-size: 1.3em; } }
+    @media screen and (min-width: 48em) {
+      #pitchmojo .overview p {
+        font-size: 1.4em; } }
+    @media screen and (min-width: 64em) {
+      #pitchmojo .overview p {
+        font-size: 1.5em; } }
+  #pitchmojo .overview hr {
+    margin: 1.5em 0;
+    width: 3em;
+    border-width: 0;
+    border-top: 1px solid rgba(249, 249, 249, 0.31); }
+  @media screen and (min-width: 48em) {
+    #pitchmojo .overview .content {
+      width: 50%; }
+    #pitchmojo .overview .project {
+      float: left; }
+    #pitchmojo .overview .role {
+      float: right; } }
+  @media screen and (min-width: 64em) {
+    #pitchmojo .overview .project {
+      padding-right: 2em; }
+    #pitchmojo .overview .role {
+      padding-left: 2em; } }
+#pitchmojo .intro .content p:nth-child(2) {
+  font-family: "proxima-nova", sans-serif;
+  font-weight: 400;
+  font-size: 1.5em;
+  color: #ED2030; }
+  @media screen and (min-width: 35.5em) {
+    #pitchmojo .intro .content p:nth-child(2) {
+      font-size: 1.7em; } }
+  @media screen and (min-width: 48em) {
+    #pitchmojo .intro .content p:nth-child(2) {
+      font-size: 1.9em; } }
+  @media screen and (min-width: 64em) {
+    #pitchmojo .intro .content p:nth-child(2) {
+      font-size: 2.1em; } }
+#pitchmojo .problem {
+  background-color: #fff; }
+  #pitchmojo .problem .content p:nth-child(1) {
+    font-family: "proxima-nova", sans-serif;
+    font-weight: 300;
+    font-size: 1.5em;
+    color: #ED2030;
+    text-align: center; }
+    @media screen and (min-width: 48em) {
+      #pitchmojo .problem .content p:nth-child(1) {
+        font-size: 1.8em; } }
+    @media screen and (min-width: 64em) {
+      #pitchmojo .problem .content p:nth-child(1) {
+        font-size: 2em; } }
+#pitchmojo .solution {
+  background-color: #2F2F2D; }
+  #pitchmojo .solution .content p:nth-child(2) {
+    font-family: "proxima-nova", sans-serif;
+    font-weight: 300;
+    font-size: 1.5em;
+    color: #55C8CB;
+    text-align: center; }
+    @media screen and (min-width: 48em) {
+      #pitchmojo .solution .content p:nth-child(2) {
+        font-size: 1.8em; } }
+  #pitchmojo .solution .content p:nth-child(3) {
+    color: #f9f9f9; }
+#pitchmojo .case-study-image .content {
+  padding: 0; }
+#pitchmojo .case-study-image img.img-width-adjust {
+  width: 100%; }
+#pitchmojo .status .content p:nth-child(1) {
+  font-family: "proxima-nova", sans-serif;
+  font-weight: 300;
+  color: #000;
+  text-align: center; }
+#pitchmojo .feedback {
+  background-color: #4E4E4E; }
+  #pitchmojo .feedback .content p {
+    color: #f9f9f9;
+    font-weight: 400; }
+    #pitchmojo .feedback .content p span.quote {
+      color: #f9f9f9; }
+  #pitchmojo .feedback .content p:nth-child(1), #pitchmojo .feedback .content h6 {
+    color: #C7C9C9; }
+  #pitchmojo .feedback .content h6 {
+    font-weight: 400;
+    color: #55C8CB; }
+#pitchmojo .view-other-work {
+  background-color: #fff; }
+  @media screen and (min-width: 48em) {
+    #pitchmojo .view-other-work .content {
+      padding: 2em 4em; } }
+  #pitchmojo .view-other-work p {
+    font-size: 1.1em;
+    color: #4E4E4E; }
+    @media screen and (min-width: 35.5em) {
+      #pitchmojo .view-other-work p {
+        font-size: 1.3em; } }
+    @media screen and (min-width: 48em) {
+      #pitchmojo .view-other-work p {
+        font-size: 1.5em; } }
+#pitchmojo .view-sutra, #pitchmojo .view-jottly {
+  background-color: #4BC4D5;
+  display: block; }
+  #pitchmojo .view-sutra .content, #pitchmojo .view-jottly .content {
+    display: table; }
+    @media screen and (min-width: 48em) {
+      #pitchmojo .view-sutra .content, #pitchmojo .view-jottly .content {
+        padding: 2em 4em; } }
+  @media screen and (min-width: 35.5em) {
+    #pitchmojo .view-sutra, #pitchmojo .view-jottly {
+      width: 50%; } }
+  #pitchmojo .view-sutra p, #pitchmojo .view-jottly p {
+    font-size: 1.1em;
+    color: #4E4E4E; }
+    @media screen and (min-width: 35.5em) {
+      #pitchmojo .view-sutra p, #pitchmojo .view-jottly p {
+        font-size: 1.5em; } }
+    @media screen and (min-width: 48em) {
+      #pitchmojo .view-sutra p, #pitchmojo .view-jottly p {
+        font-size: 1.9em; } }
+    #pitchmojo .view-sutra p a, #pitchmojo .view-jottly p a {
+      color: #000; }
+@media screen and (min-width: 35.5em) {
+  #pitchmojo .view-jottly {
+    float: left; } }
+#pitchmojo .view-sutra {
+  background-color: #F6C41F; }
+  @media screen and (min-width: 35.5em) {
+    #pitchmojo .view-sutra {
+      float: right; } }
+
+#pitchmojo hr {
+  width: 3em;
+  margin-top: 3em;
+  margin-bottom: 3.5em;
+  border-width: 0;
+  border-top: 1px solid rgba(249, 249, 249, 0.31); }
+#pitchmojo .wrapper {
+  display: table;
+  width: 100%; }
+#pitchmojo .content {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: left; }
+  @media screen and (min-width: 35.5em) {
+    #pitchmojo .content {
+      padding: 2.5em 3em; } }
+  @media screen and (min-width: 48em) {
+    #pitchmojo .content {
+      padding: 2.8em 4em; } }
+  @media screen and (min-width: 64em) {
+    #pitchmojo .content {
+      padding: 2.8em 10%; } }
+  @media screen and (min-width: 80em) {
+    #pitchmojo .content {
+      padding: 2.8em 15%; } }
+  @media screen and (min-width: 93em) {
+    #pitchmojo .content {
+      padding: 2.8em 20%; } }
+  #pitchmojo .content p {
+    padding: 0.5em 0;
+    font-size: 1.1em; }
+    @media screen and (min-width: 35.5em) {
+      #pitchmojo .content p {
+        font-size: 1.2em; } }
+    @media screen and (min-width: 48em) {
+      #pitchmojo .content p {
+        font-size: 1.3em; } }
+    @media screen and (min-width: 64em) {
+      #pitchmojo .content p {
+        font-size: 1.4em; } }
+  #pitchmojo .content p.section-icon {
+    text-align: center; }
+  #pitchmojo .content .fa {
+    text-align: center;
+    color: #C7C9C9;
+    font-size: 2.5em; }
+#pitchmojo .case-study-hero {
+  text-align: center;
+  height: 25em;
+  background: url("../images/pitchmojo/casestudy-pitchmojo-hero.jpg");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover; }
+  @media screen and (min-width: 35.5em) {
+    #pitchmojo .case-study-hero {
+      height: 30em; } }
+  @media screen and (min-width: 48em) {
+    #pitchmojo .case-study-hero {
+      height: 35em; } }
+  @media screen and (min-width: 64em) {
+    #pitchmojo .case-study-hero {
+      height: 40em; } }
+  @media screen and (min-width: 80em) {
+    #pitchmojo .case-study-hero {
+      height: 45em; } }
+  #pitchmojo .case-study-hero p {
+    font-size: 2em;
+    padding: 0;
+    color: #f9f9f9;
+    text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5); }
+    @media screen and (min-width: 35.5em) {
+      #pitchmojo .case-study-hero p {
+        font-size: 2.7em; } }
+    @media screen and (min-width: 48em) {
+      #pitchmojo .case-study-hero p {
+        font-size: 3.4em; } }
+    @media screen and (min-width: 64em) {
+      #pitchmojo .case-study-hero p {
+        font-size: 4.1em; } }
+  #pitchmojo .case-study-hero h3 {
+    font-size: 2.5em;
+    color: #ED2030;
+    text-shadow: 0px 2px 4px #171617;
+    padding-bottom: 0.3em; }
+    @media screen and (min-width: 35.5em) {
+      #pitchmojo .case-study-hero h3 {
+        font-size: 3em; } }
+    @media screen and (min-width: 48em) {
+      #pitchmojo .case-study-hero h3 {
+        font-size: 3.5em; } }
+    @media screen and (min-width: 64em) {
+      #pitchmojo .case-study-hero h3 {
+        font-size: 4.3em; } }
+  #pitchmojo .case-study-hero h4 {
+    color: #F9F9F9; }
+    @media screen and (min-width: 48em) {
+      #pitchmojo .case-study-hero h4 {
+        font-size: 1.1em; } }
+    @media screen and (min-width: 64em) {
+      #pitchmojo .case-study-hero h4 {
+        font-size: 1.2em; } }
+#pitchmojo .project-description p {
+  font-family: "proxima-nova", sans-serif;
+  font-weight: 300;
+  font-size: 1.2em;
+  color: #A5A5A5; }
+  @media screen and (min-width: 35.5em) {
+    #pitchmojo .project-description p {
+      font-size: 1.4em; } }
+  @media screen and (min-width: 48em) {
+    #pitchmojo .project-description p {
+      font-size: 1.6em; } }
+  @media screen and (min-width: 64em) {
+    #pitchmojo .project-description p {
+      font-size: 1.8em; } }
+#pitchmojo .overview {
+  background-color: #55C8CB;
+  width: 100%; }
+  #pitchmojo .overview .content {
+    display: inline-table; }
+  #pitchmojo .overview p {
+    font-size: 1.2em;
+    color: #4E4E4E; }
+    @media screen and (min-width: 35.5em) {
+      #pitchmojo .overview p {
+        font-size: 1.3em; } }
+    @media screen and (min-width: 48em) {
+      #pitchmojo .overview p {
+        font-size: 1.4em; } }
+    @media screen and (min-width: 64em) {
+      #pitchmojo .overview p {
+        font-size: 1.5em; } }
+  #pitchmojo .overview hr {
+    margin: 1.5em 0;
+    width: 3em;
+    border-width: 0;
+    border-top: 1px solid rgba(249, 249, 249, 0.31); }
+  @media screen and (min-width: 48em) {
+    #pitchmojo .overview .content {
+      width: 50%; }
+    #pitchmojo .overview .project {
+      float: left; }
+    #pitchmojo .overview .role {
+      float: right; } }
+  @media screen and (min-width: 64em) {
+    #pitchmojo .overview .project {
+      padding-right: 2em; }
+    #pitchmojo .overview .role {
+      padding-left: 2em; } }
+#pitchmojo .intro .content p:nth-child(2) {
+  font-family: "proxima-nova", sans-serif;
+  font-weight: 400;
+  font-size: 1.5em;
+  color: #ED2030; }
+  @media screen and (min-width: 35.5em) {
+    #pitchmojo .intro .content p:nth-child(2) {
+      font-size: 1.7em; } }
+  @media screen and (min-width: 48em) {
+    #pitchmojo .intro .content p:nth-child(2) {
+      font-size: 1.9em; } }
+  @media screen and (min-width: 64em) {
+    #pitchmojo .intro .content p:nth-child(2) {
+      font-size: 2.1em; } }
+#pitchmojo .problem {
+  background-color: #fff; }
+  #pitchmojo .problem .content p:nth-child(1) {
+    font-family: "proxima-nova", sans-serif;
+    font-weight: 300;
+    font-size: 1.5em;
+    color: #ED2030;
+    text-align: center; }
+    @media screen and (min-width: 48em) {
+      #pitchmojo .problem .content p:nth-child(1) {
+        font-size: 1.8em; } }
+    @media screen and (min-width: 64em) {
+      #pitchmojo .problem .content p:nth-child(1) {
+        font-size: 2em; } }
+#pitchmojo .solution {
+  background-color: #2F2F2D; }
+  #pitchmojo .solution .content p:nth-child(2) {
+    font-family: "proxima-nova", sans-serif;
+    font-weight: 300;
+    font-size: 1.5em;
+    color: #55C8CB;
+    text-align: center; }
+    @media screen and (min-width: 48em) {
+      #pitchmojo .solution .content p:nth-child(2) {
+        font-size: 1.8em; } }
+  #pitchmojo .solution .content p:nth-child(3) {
+    color: #f9f9f9; }
+#pitchmojo .case-study-image .content {
+  padding: 0; }
+#pitchmojo .case-study-image img.img-width-adjust {
+  width: 100%; }
+#pitchmojo .status .content p:nth-child(1) {
+  font-family: "proxima-nova", sans-serif;
+  font-weight: 300;
+  color: #000;
+  text-align: center; }
+#pitchmojo .feedback {
+  background-color: #4E4E4E; }
+  #pitchmojo .feedback .content p {
+    color: #f9f9f9;
+    font-weight: 400; }
+    #pitchmojo .feedback .content p span.quote {
+      color: #f9f9f9; }
+  #pitchmojo .feedback .content p:nth-child(1), #pitchmojo .feedback .content h6 {
+    color: #C7C9C9; }
+  #pitchmojo .feedback .content h6 {
+    font-weight: 400;
+    color: #55C8CB; }
+#pitchmojo .view-other-work {
+  background-color: #fff; }
+  @media screen and (min-width: 48em) {
+    #pitchmojo .view-other-work .content {
+      padding: 2em 4em; } }
+  #pitchmojo .view-other-work p {
+    font-size: 1.1em;
+    color: #4E4E4E; }
+    @media screen and (min-width: 35.5em) {
+      #pitchmojo .view-other-work p {
+        font-size: 1.3em; } }
+    @media screen and (min-width: 48em) {
+      #pitchmojo .view-other-work p {
+        font-size: 1.5em; } }
+#pitchmojo .view-sutra, #pitchmojo .view-jottly {
+  background-color: #4BC4D5;
+  display: block; }
+  #pitchmojo .view-sutra .content, #pitchmojo .view-jottly .content {
+    display: table; }
+    @media screen and (min-width: 48em) {
+      #pitchmojo .view-sutra .content, #pitchmojo .view-jottly .content {
+        padding: 2em 4em; } }
+  @media screen and (min-width: 35.5em) {
+    #pitchmojo .view-sutra, #pitchmojo .view-jottly {
+      width: 50%; } }
+  #pitchmojo .view-sutra p, #pitchmojo .view-jottly p {
+    font-size: 1.1em;
+    color: #4E4E4E; }
+    @media screen and (min-width: 35.5em) {
+      #pitchmojo .view-sutra p, #pitchmojo .view-jottly p {
+        font-size: 1.5em; } }
+    @media screen and (min-width: 48em) {
+      #pitchmojo .view-sutra p, #pitchmojo .view-jottly p {
+        font-size: 1.9em; } }
+    #pitchmojo .view-sutra p a, #pitchmojo .view-jottly p a {
+      color: #000; }
+@media screen and (min-width: 35.5em) {
+  #pitchmojo .view-jottly {
+    float: left; } }
+#pitchmojo .view-sutra {
+  background-color: #F6C41F; }
+  @media screen and (min-width: 35.5em) {
+    #pitchmojo .view-sutra {
+      float: right; } }
+
+#pitchmojo hr {
+  width: 3em;
+  margin-top: 3em;
+  margin-bottom: 3.5em;
+  border-width: 0;
+  border-top: 1px solid rgba(249, 249, 249, 0.31); }
+#pitchmojo .wrapper {
+  display: table;
+  width: 100%; }
+#pitchmojo .content {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: left; }
+  @media screen and (min-width: 35.5em) {
+    #pitchmojo .content {
+      padding: 2.5em 3em; } }
+  @media screen and (min-width: 48em) {
+    #pitchmojo .content {
+      padding: 2.8em 4em; } }
+  @media screen and (min-width: 64em) {
+    #pitchmojo .content {
+      padding: 2.8em 10%; } }
+  @media screen and (min-width: 80em) {
+    #pitchmojo .content {
+      padding: 2.8em 15%; } }
+  @media screen and (min-width: 93em) {
+    #pitchmojo .content {
+      padding: 2.8em 20%; } }
+  #pitchmojo .content p {
+    padding: 0.5em 0;
+    font-size: 1.1em; }
+    @media screen and (min-width: 35.5em) {
+      #pitchmojo .content p {
+        font-size: 1.2em; } }
+    @media screen and (min-width: 48em) {
+      #pitchmojo .content p {
+        font-size: 1.3em; } }
+    @media screen and (min-width: 64em) {
+      #pitchmojo .content p {
+        font-size: 1.4em; } }
+  #pitchmojo .content p.section-icon {
+    text-align: center; }
+  #pitchmojo .content .fa {
+    text-align: center;
+    color: #C7C9C9;
+    font-size: 2.5em; }
+#pitchmojo .case-study-hero {
+  text-align: center;
+  height: 25em;
+  background: url("../images/pitchmojo/casestudy-pitchmojo-hero.jpg");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover; }
+  @media screen and (min-width: 35.5em) {
+    #pitchmojo .case-study-hero {
+      height: 30em; } }
+  @media screen and (min-width: 48em) {
+    #pitchmojo .case-study-hero {
+      height: 35em; } }
+  @media screen and (min-width: 64em) {
+    #pitchmojo .case-study-hero {
+      height: 40em; } }
+  @media screen and (min-width: 80em) {
+    #pitchmojo .case-study-hero {
+      height: 45em; } }
+  #pitchmojo .case-study-hero p {
+    font-size: 2em;
+    padding: 0;
+    color: #f9f9f9;
+    text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5); }
+    @media screen and (min-width: 35.5em) {
+      #pitchmojo .case-study-hero p {
+        font-size: 2.7em; } }
+    @media screen and (min-width: 48em) {
+      #pitchmojo .case-study-hero p {
+        font-size: 3.4em; } }
+    @media screen and (min-width: 64em) {
+      #pitchmojo .case-study-hero p {
+        font-size: 4.1em; } }
+  #pitchmojo .case-study-hero h3 {
+    font-size: 2.5em;
+    color: #ED2030;
+    text-shadow: 0px 2px 4px #171617;
+    padding-bottom: 0.3em; }
+    @media screen and (min-width: 35.5em) {
+      #pitchmojo .case-study-hero h3 {
+        font-size: 3em; } }
+    @media screen and (min-width: 48em) {
+      #pitchmojo .case-study-hero h3 {
+        font-size: 3.5em; } }
+    @media screen and (min-width: 64em) {
+      #pitchmojo .case-study-hero h3 {
+        font-size: 4.3em; } }
+  #pitchmojo .case-study-hero h4 {
+    color: #F9F9F9; }
+    @media screen and (min-width: 48em) {
+      #pitchmojo .case-study-hero h4 {
+        font-size: 1.1em; } }
+    @media screen and (min-width: 64em) {
+      #pitchmojo .case-study-hero h4 {
+        font-size: 1.2em; } }
+#pitchmojo .project-description p {
+  font-family: "proxima-nova", sans-serif;
+  font-weight: 300;
+  font-size: 1.2em;
+  color: #A5A5A5; }
+  @media screen and (min-width: 35.5em) {
+    #pitchmojo .project-description p {
+      font-size: 1.4em; } }
+  @media screen and (min-width: 48em) {
+    #pitchmojo .project-description p {
+      font-size: 1.6em; } }
+  @media screen and (min-width: 64em) {
+    #pitchmojo .project-description p {
+      font-size: 1.8em; } }
+#pitchmojo .overview {
+  background-color: #55C8CB;
+  width: 100%; }
+  #pitchmojo .overview .content {
+    display: inline-table; }
+  #pitchmojo .overview p {
+    font-size: 1.2em;
+    color: #4E4E4E; }
+    @media screen and (min-width: 35.5em) {
+      #pitchmojo .overview p {
+        font-size: 1.3em; } }
+    @media screen and (min-width: 48em) {
+      #pitchmojo .overview p {
+        font-size: 1.4em; } }
+    @media screen and (min-width: 64em) {
+      #pitchmojo .overview p {
+        font-size: 1.5em; } }
+  #pitchmojo .overview hr {
+    margin: 1.5em 0;
+    width: 3em;
+    border-width: 0;
+    border-top: 1px solid rgba(249, 249, 249, 0.31); }
+  @media screen and (min-width: 48em) {
+    #pitchmojo .overview .content {
+      width: 50%; }
+    #pitchmojo .overview .project {
+      float: left; }
+    #pitchmojo .overview .role {
+      float: right; } }
+  @media screen and (min-width: 64em) {
+    #pitchmojo .overview .project {
+      padding-right: 2em; }
+    #pitchmojo .overview .role {
+      padding-left: 2em; } }
+#pitchmojo .intro .content p:nth-child(2) {
+  font-family: "proxima-nova", sans-serif;
+  font-weight: 400;
+  font-size: 1.5em;
+  color: #ED2030; }
+  @media screen and (min-width: 35.5em) {
+    #pitchmojo .intro .content p:nth-child(2) {
+      font-size: 1.7em; } }
+  @media screen and (min-width: 48em) {
+    #pitchmojo .intro .content p:nth-child(2) {
+      font-size: 1.9em; } }
+  @media screen and (min-width: 64em) {
+    #pitchmojo .intro .content p:nth-child(2) {
+      font-size: 2.1em; } }
+#pitchmojo .problem {
+  background-color: #fff; }
+  #pitchmojo .problem .content p:nth-child(1) {
+    font-family: "proxima-nova", sans-serif;
+    font-weight: 300;
+    font-size: 1.5em;
+    color: #ED2030;
+    text-align: center; }
+    @media screen and (min-width: 48em) {
+      #pitchmojo .problem .content p:nth-child(1) {
+        font-size: 1.8em; } }
+    @media screen and (min-width: 64em) {
+      #pitchmojo .problem .content p:nth-child(1) {
+        font-size: 2em; } }
+#pitchmojo .solution {
+  background-color: #2F2F2D; }
+  #pitchmojo .solution .content p:nth-child(2) {
+    font-family: "proxima-nova", sans-serif;
+    font-weight: 300;
+    font-size: 1.5em;
+    color: #55C8CB;
+    text-align: center; }
+    @media screen and (min-width: 48em) {
+      #pitchmojo .solution .content p:nth-child(2) {
+        font-size: 1.8em; } }
+  #pitchmojo .solution .content p:nth-child(3) {
+    color: #f9f9f9; }
+#pitchmojo .case-study-image .content {
+  padding: 0; }
+#pitchmojo .case-study-image img.img-width-adjust {
+  width: 100%; }
+#pitchmojo .status .content p:nth-child(1) {
+  font-family: "proxima-nova", sans-serif;
+  font-weight: 300;
+  color: #000;
+  text-align: center; }
+#pitchmojo .feedback {
+  background-color: #4E4E4E; }
+  #pitchmojo .feedback .content p {
+    color: #f9f9f9;
+    font-weight: 400; }
+    #pitchmojo .feedback .content p span.quote {
+      color: #f9f9f9; }
+  #pitchmojo .feedback .content p:nth-child(1), #pitchmojo .feedback .content h6 {
+    color: #C7C9C9; }
+  #pitchmojo .feedback .content h6 {
+    font-weight: 400;
+    color: #55C8CB; }
+#pitchmojo .view-other-work {
+  background-color: #fff; }
+  @media screen and (min-width: 48em) {
+    #pitchmojo .view-other-work .content {
+      padding: 2em 4em; } }
+  #pitchmojo .view-other-work p {
+    font-size: 1.1em;
+    color: #4E4E4E; }
+    @media screen and (min-width: 35.5em) {
+      #pitchmojo .view-other-work p {
+        font-size: 1.3em; } }
+    @media screen and (min-width: 48em) {
+      #pitchmojo .view-other-work p {
+        font-size: 1.5em; } }
+#pitchmojo .view-sutra, #pitchmojo .view-jottly {
+  background-color: #4BC4D5;
+  display: block; }
+  #pitchmojo .view-sutra .content, #pitchmojo .view-jottly .content {
+    display: table; }
+    @media screen and (min-width: 48em) {
+      #pitchmojo .view-sutra .content, #pitchmojo .view-jottly .content {
+        padding: 2em 4em; } }
+  @media screen and (min-width: 35.5em) {
+    #pitchmojo .view-sutra, #pitchmojo .view-jottly {
+      width: 50%; } }
+  #pitchmojo .view-sutra p, #pitchmojo .view-jottly p {
+    font-size: 1.1em;
+    color: #4E4E4E; }
+    @media screen and (min-width: 35.5em) {
+      #pitchmojo .view-sutra p, #pitchmojo .view-jottly p {
+        font-size: 1.5em; } }
+    @media screen and (min-width: 48em) {
+      #pitchmojo .view-sutra p, #pitchmojo .view-jottly p {
+        font-size: 1.9em; } }
+    #pitchmojo .view-sutra p a, #pitchmojo .view-jottly p a {
+      color: #000; }
+@media screen and (min-width: 35.5em) {
+  #pitchmojo .view-jottly {
+    float: left; } }
+#pitchmojo .view-sutra {
+  background-color: #F6C41F; }
+  @media screen and (min-width: 35.5em) {
+    #pitchmojo .view-sutra {
+      float: right; } }
 
 #pitchmojo hr {
   width: 3em;
