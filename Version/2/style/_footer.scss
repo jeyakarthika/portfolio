@@ -1,0 +1,146 @@
+footer {
+  @extend %center-text;
+}
+
+.call-to-action {
+  p {
+    font-family: $primary-font-stack;
+    line-height: 1.8;
+
+    &:nth-child(1) {
+      font-weight: 300;
+      font-size: 1.5em;
+      @media screen and (min-width: $small-devices-up) {
+        font-size: 1.8em;
+      }
+      @media screen and (min-width: $medium-devices-up) {
+        font-size: 2em;
+      }
+      @media screen and (min-width: $large-devices-up) {
+        font-size: 2.2em;
+      }
+    }
+    &:nth-child(2) {
+      font-weight: 100;
+      font-size: 1em;
+      @media screen and (min-width: $small-devices-up) {
+        font-size: 1.1em;
+      }
+      @media screen and (min-width: $medium-devices-up) {
+        font-size: 1.3em;
+      }
+      @media screen and (min-width: $large-devices-up) {
+        font-size: 1.5em;
+      }
+    }
+    a {
+      color: $primary-highlight-color;
+      border-bottom: 1px solid $primary-highlight-color;
+    }
+  }
+}
+
+.social-media-icons {
+
+  background-color: #171617;
+
+  div.icon {
+    display: inline-block;
+    padding: 0.5em;
+
+    @media screen and (min-width: $small-devices-up) {
+      padding: 0 0.5em;
+    }
+
+    @media screen and (min-width: $medium-devices-up) {
+      padding: 0 1.5em;
+    }
+
+    @media screen and (min-width: $large-devices-up) {
+      padding: 0 2.5em;
+    }
+
+    a {
+      color: #333;
+      padding: 1em;
+
+      span {
+        font-size: 2em;
+        @media screen and (min-width: $small-devices-up) {
+          font-size: 2.5em;
+        }
+        @media screen and (min-width: $large-devices-up) {
+          font-size: 3em;
+        }
+      }
+
+      &:hover {
+        color: $primary-highlight-color;
+      }
+    }
+  }
+
+}
+
+.bottom-nav {
+  background-color: #000;
+
+  .pure-menu-link {
+    color: $body-text-color-light;
+  }
+
+  .copyright {
+    p {
+      color: #404040;
+      font-family: $primary-font-stack;
+      font-weight: 400;
+
+      @media screen and (min-width: $medium-devices-up) {
+        line-height: 1.8;
+      }
+
+      &:nth-child(1), a {
+        padding-top: 1em;
+        font-size: 0.9em;
+
+        @media screen and (min-width: $medium-devices-up) {
+          padding-top: 1.2em;
+          font-size: 1em;
+        }
+
+        @media screen and (min-width: $large-devices-up) {
+          padding-top: 1.5em;
+          font-size: 1.1em;
+        }
+
+        span.fa {
+          color: #FF0000;
+          padding: 0.5em;
+        }
+      }
+
+      &:nth-child(2) {
+        font-size: 0.8em;
+
+        @media screen and (min-width: $medium-devices-up) {
+          font-size: 0.9em;
+        }
+        @media screen and (min-width: $large-devices-up) {
+          font-size: 1em;
+        }
+      }
+
+      a {
+        color: #404040;
+      }
+
+      &:hover {
+        a {
+          color: $primary-highlight-color;
+        }
+      }
+    }
+  }
+
+
+}
