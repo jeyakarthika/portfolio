@@ -1,3 +1,3 @@
 ## Portfolio
 
-This is the portfolio of Jeya Karthika, a User Experience Designer based in Brisbane. 
+This is the portfolio of Jeya Karthika, Product Designer based in Brisbane. 

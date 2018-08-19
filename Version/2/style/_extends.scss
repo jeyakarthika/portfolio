@@ -1,0 +1,51 @@
+%clearfix {
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
+%anchor {
+  text-decoration: none;
+  color: $body-text-color;
+}
+
+%highlight {
+  color: $primary-highlight-color;
+}
+
+%center-text {
+  text-align: center;
+}
+
+%container {
+  position: relative;
+  text-align: center;
+  padding: 2em; 
+  width: 100%;
+  height: auto;
+  @media screen and (min-width: $medium-devices-up) {
+    padding: 3em;
+  }
+}
+
+%vertical-align {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+%p-centered {
+  font-family: $primary-font-stack;
+  text-align: center;
+}
+
+%full-width-img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}

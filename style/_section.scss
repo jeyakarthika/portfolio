@@ -79,14 +79,39 @@ section, footer {
     display: inline-flex;
     @include view-case-study($nav-text-color, $body-text-color-light);
   }
-  
+
 }
 
-#work-pitchmojo, #work-sutra, #work-jottly {
+#work-tradieapp, #work-landlordportal, #work-bitpool, #work-pitchmojo, #work-sutra, #work-jottly {
   width: 100%;
   display: table;
 
   @extend %clearfix;
+}
+
+
+#work-tradieapp {
+  @include work-bg("../images/work-tradieapp-bg.jpg");
+
+  h3 {
+    color: #4BC4D5;
+  }
+}
+
+#work-landlordportal {
+  @include work-bg("../images/work-landlordportal-bg.jpg");
+
+  h3 {
+    color: #FFC989;
+  }
+}
+
+#work-bitpool {
+  @include work-bg("../images/work-bitpool-bg.jpg");
+
+  h3 {
+    color: #00ADEE;
+  }
 }
 
 #work-pitchmojo {
